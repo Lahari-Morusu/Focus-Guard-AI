@@ -1,0 +1,37 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: focus-guard-db
+    environment:
+      POSTGRES_DB: focusguard
+      POSTGRES_USER: focusguard
+      POSTGRES_PASSWORD: focusguard123
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  app:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: focus-guard-app
+    environment:
+      PORT: 3000
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: focusguard
+      DB_USER: focusguard
+      DB_PASSWORD: focusguard123
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4.1-mini}
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    volumes:
+      - ./backend:/app
+      - ./frontend:/app/frontend
+
+volumes:
+  pgdata:

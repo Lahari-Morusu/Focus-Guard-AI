@@ -1,0 +1,226 @@
+user_type,period,from_app,to_app,switch_count
+User1,2026-06-01,YouTube,HackerRank,1
+User1,2026-06-02,Google Sheets,Coursera,1
+User1,2026-06-03,Pinterest,WhatsApp Web,1
+User1,2026-06-04,Candy Crush,GeeksforGeeks,1
+User1,2026-06-05,GitHub,GitLab,1
+User1,2026-06-06,GitLab,Claude,1
+User1,2026-06-07,Postgres pgAdmin,Postgres pgAdmin,1
+User1,2026-06-08,Google Docs,Zoom,1
+User1,2026-06-09,Microsoft Teams,TikTok,1
+User1,2026-06-10,Prime Video,Slack,1
+User1,2026-06-11,Postgres pgAdmin,Candy Crush,1
+User1,2026-06-12,GitHub,Zoom,1
+User1,2026-06-13,ChatGPT,Instagram,1
+User1,2026-06-14,YouTube,W3Schools,1
+User1,2026-06-15,Slack,Hotstar,1
+User1,2026-06-16,Spotify,Twitter/X,1
+User1,2026-06-17,Google Meet,LinkedIn Learning,1
+User1,2026-06-18,Flipkart,Notion,1
+User1,2026-06-19,Amazon,Facebook,1
+User1,2026-06-20,Slack,Zoom,1
+User1,2026-06-21,VS Code,VS Code,1
+User1,2026-06-22,Candy Crush,W3Schools,1
+User1,2026-06-23,WhatsApp Web,Prime Video,1
+User1,2026-06-24,Prime Video,Flipkart,1
+User1,2026-06-25,GitLab,Candy Crush,1
+User1,2026-06-26,YouTube,WhatsApp Web,1
+User1,2026-06-27,Prime Video,Flipkart,1
+User1,2026-06-28,Hotstar,Postgres pgAdmin,1
+User1,2026-06-29,Twitter/X,Jira,1
+User1,2026-06-30,Postgres pgAdmin,Jira,1
+User1,2026-07-01,Hotstar,W3Schools,1
+User1,2026-07-02,LinkedIn Learning,PUBG Mobile,1
+User1,2026-07-03,Claude,GitHub,1
+User1,2026-07-04,Twitter/X,Amazon,1
+User1,2026-07-05,Trello,W3Schools,1
+User1,2026-07-06,Zoom,Coursera,1
+User1,2026-07-07,Amazon,Jupyter Notebook,1
+User1,2026-07-08,Overleaf,W3Schools,1
+User1,2026-07-09,Coursera,Trello,1
+User1,2026-07-10,Google Sheets,TikTok,1
+User1,2026-07-11,Postgres pgAdmin,Netflix,1
+User1,2026-07-12,Candy Crush,Twitter/X,2
+User1,2026-07-13,PUBG Mobile,Google Sheets,1
+User1,2026-07-14,Slack,Slack,1
+User1,2026-07-15,Jira,TikTok,1
+User2,2026-06-01,Stack Overflow,Zoom,1
+User2,2026-06-02,News18,ChatGPT,1
+User2,2026-06-03,LeetCode,Facebook,1
+User2,2026-06-04,Coursera,Postgres pgAdmin,1
+User2,2026-06-05,Jupyter Notebook,Jupyter Notebook,1
+User2,2026-06-06,Stack Overflow,Coursera,1
+User2,2026-06-07,Postgres pgAdmin,Stack Overflow,1
+User2,2026-06-08,Flipkart,Udemy,1
+User2,2026-06-09,Facebook,GitHub,1
+User2,2026-06-10,WhatsApp Web,GitHub,1
+User2,2026-06-11,Zoom,YouTube,1
+User2,2026-06-12,Jupyter Notebook,Spotify,1
+User2,2026-06-13,Google Meet,Slack,1
+User2,2026-06-14,Claude,ChatGPT,1
+User2,2026-06-15,W3Schools,LinkedIn Learning,1
+User2,2026-06-16,Jira,Notion,1
+User2,2026-06-17,Google Docs,Slack,1
+User2,2026-06-18,Twitter/X,Slack,1
+User2,2026-06-19,LeetCode,TikTok,1
+User2,2026-06-20,Twitter/X,Amazon,1
+User2,2026-06-21,GitLab,Microsoft Teams,1
+User2,2026-06-22,Facebook,Trello,1
+User2,2026-06-23,TikTok,LinkedIn Learning,1
+User2,2026-06-24,Pinterest,Netflix,1
+User2,2026-06-25,LinkedIn Learning,Google Meet,1
+User2,2026-06-26,GitHub,Coursera,1
+User2,2026-06-27,VS Code,LinkedIn Learning,1
+User2,2026-06-28,Twitter/X,Trello,1
+User2,2026-06-29,Notion,Spotify,1
+User2,2026-06-30,Instagram,YouTube,1
+User2,2026-07-01,News18,Slack,1
+User2,2026-07-02,Pinterest,Spotify,1
+User2,2026-07-03,Snapchat,Prime Video,1
+User2,2026-07-04,GitHub,TikTok,1
+User2,2026-07-05,GeeksforGeeks,W3Schools,1
+User2,2026-07-06,GitLab,Coursera,1
+User2,2026-07-07,VS Code,Facebook,1
+User2,2026-07-08,Twitter/X,GitHub,1
+User2,2026-07-09,Google Docs,Udemy,1
+User2,2026-07-10,Slack,News18,1
+User2,2026-07-11,Candy Crush,Hotstar,1
+User2,2026-07-12,GitLab,LeetCode,1
+User2,2026-07-13,Pinterest,Postgres pgAdmin,1
+User2,2026-07-14,ChatGPT,LinkedIn Learning,1
+User2,2026-07-15,W3Schools,Candy Crush,1
+User3,2026-06-01,TikTok,VS Code,1
+User3,2026-06-02,Trello,CodeChef,1
+User3,2026-06-03,Netflix,HackerRank,1
+User3,2026-06-04,Microsoft Teams,Stack Overflow,1
+User3,2026-06-05,TikTok,GeeksforGeeks,1
+User3,2026-06-06,Trello,Facebook,1
+User3,2026-06-07,YouTube,Hotstar,1
+User3,2026-06-08,GitLab,GeeksforGeeks,1
+User3,2026-06-09,Claude,GitHub,1
+User3,2026-06-10,Claude,Microsoft Teams,1
+User3,2026-06-11,Jira,Postgres pgAdmin,1
+User3,2026-06-12,Google Docs,Snapchat,1
+User3,2026-06-13,Microsoft Teams,Snapchat,1
+User3,2026-06-14,Postgres pgAdmin,PUBG Mobile,2
+User3,2026-06-15,Zoom,Google Docs,1
+User3,2026-06-16,CodeChef,Amazon,1
+User3,2026-06-17,Trello,Snapchat,1
+User3,2026-06-18,W3Schools,PUBG Mobile,1
+User3,2026-06-19,Reddit,Jira,1
+User3,2026-06-20,Claude,Claude,1
+User3,2026-06-21,HackerRank,Candy Crush,1
+User3,2026-06-22,CodeChef,Udemy,1
+User3,2026-06-23,TikTok,Amazon,1
+User3,2026-06-24,Postgres pgAdmin,Slack,1
+User3,2026-06-25,Amazon,Flipkart,1
+User3,2026-06-26,Claude,Udemy,1
+User3,2026-06-27,Prime Video,Stack Overflow,1
+User3,2026-06-28,LinkedIn Learning,Claude,1
+User3,2026-06-29,Flipkart,Candy Crush,1
+User3,2026-06-30,Microsoft Teams,Snapchat,1
+User3,2026-07-01,LeetCode,Notion,1
+User3,2026-07-02,Flipkart,Prime Video,1
+User3,2026-07-03,Twitter/X,Notion,1
+User3,2026-07-04,Flipkart,News18,1
+User3,2026-07-05,Udemy,Udemy,2
+User3,2026-07-06,HackerRank,YouTube,1
+User3,2026-07-07,Jupyter Notebook,Claude,1
+User3,2026-07-08,WhatsApp Web,ChatGPT,1
+User3,2026-07-09,Facebook,Stack Overflow,1
+User3,2026-07-10,Claude,Zoom,1
+User3,2026-07-11,Zoom,Postgres pgAdmin,1
+User3,2026-07-12,Amazon,Microsoft Teams,1
+User3,2026-07-13,GitHub,Zoom,1
+User3,2026-07-14,WhatsApp Web,LeetCode,1
+User3,2026-07-15,Notion,Jira,1
+User4,2026-06-01,Amazon,PUBG Mobile,1
+User4,2026-06-02,Amazon,Claude,1
+User4,2026-06-03,Facebook,GitHub,1
+User4,2026-06-04,W3Schools,Pinterest,1
+User4,2026-06-05,CodeChef,Postgres pgAdmin,1
+User4,2026-06-06,HackerRank,Postgres pgAdmin,1
+User4,2026-06-07,Candy Crush,Trello,1
+User4,2026-06-08,PUBG Mobile,Instagram,1
+User4,2026-06-09,Microsoft Teams,PUBG Mobile,1
+User4,2026-06-10,Postgres pgAdmin,WhatsApp Web,1
+User4,2026-06-11,PUBG Mobile,Pinterest,1
+User4,2026-06-12,Spotify,GitHub,1
+User4,2026-06-13,Notion,WhatsApp Web,1
+User4,2026-06-14,GitHub,LinkedIn Learning,1
+User4,2026-06-15,Jupyter Notebook,Coursera,1
+User4,2026-06-16,Stack Overflow,LinkedIn Learning,1
+User4,2026-06-17,Amazon,ChatGPT,1
+User4,2026-06-18,Zoom,Jira,1
+User4,2026-06-19,GeeksforGeeks,Google Docs,1
+User4,2026-06-20,Jupyter Notebook,Amazon,1
+User4,2026-06-21,Microsoft Teams,Postgres pgAdmin,1
+User4,2026-06-22,VS Code,Stack Overflow,1
+User4,2026-06-23,WhatsApp Web,LeetCode,1
+User4,2026-06-24,LinkedIn Learning,HackerRank,1
+User4,2026-06-25,VS Code,W3Schools,1
+User4,2026-06-26,Instagram,HackerRank,1
+User4,2026-06-27,WhatsApp Web,Spotify,1
+User4,2026-06-28,Candy Crush,Notion,1
+User4,2026-06-29,Microsoft Teams,Prime Video,1
+User4,2026-06-30,Google Meet,CodeChef,1
+User4,2026-07-01,Postgres pgAdmin,Amazon,1
+User4,2026-07-02,WhatsApp Web,Pinterest,1
+User4,2026-07-03,Zoom,Amazon,1
+User4,2026-07-04,GitLab,YouTube,1
+User4,2026-07-05,Jupyter Notebook,Prime Video,1
+User4,2026-07-06,Google Meet,CodeChef,1
+User4,2026-07-07,Trello,Jupyter Notebook,1
+User4,2026-07-08,Zoom,ChatGPT,1
+User4,2026-07-09,Overleaf,Jupyter Notebook,1
+User4,2026-07-10,Claude,Spotify,1
+User4,2026-07-11,Candy Crush,GeeksforGeeks,1
+User4,2026-07-12,Postgres pgAdmin,Trello,1
+User4,2026-07-13,Jupyter Notebook,Pinterest,1
+User4,2026-07-14,Trello,Google Meet,1
+User4,2026-07-15,Slack,Amazon,1
+User5,2026-06-01,Spotify,News18,1
+User5,2026-06-02,HackerRank,Amazon,1
+User5,2026-06-03,Google Docs,Amazon,1
+User5,2026-06-04,LeetCode,GitLab,1
+User5,2026-06-05,Facebook,Snapchat,1
+User5,2026-06-06,Flipkart,Jira,1
+User5,2026-06-07,Stack Overflow,TikTok,1
+User5,2026-06-08,Reddit,Notion,1
+User5,2026-06-09,VS Code,Spotify,2
+User5,2026-06-10,Reddit,Prime Video,1
+User5,2026-06-11,Jira,CodeChef,2
+User5,2026-06-12,Coursera,Twitter/X,1
+User5,2026-06-13,Amazon,LinkedIn Learning,2
+User5,2026-06-14,Slack,Slack,2
+User5,2026-06-15,Spotify,GeeksforGeeks,1
+User5,2026-06-16,Stack Overflow,Candy Crush,1
+User5,2026-06-17,Spotify,Udemy,1
+User5,2026-06-18,Candy Crush,Coursera,1
+User5,2026-06-19,VS Code,Overleaf,1
+User5,2026-06-20,Jupyter Notebook,ChatGPT,1
+User5,2026-06-21,Snapchat,Stack Overflow,1
+User5,2026-06-22,CodeChef,Candy Crush,1
+User5,2026-06-23,Twitter/X,Instagram,1
+User5,2026-06-24,Udemy,Trello,1
+User5,2026-06-25,Prime Video,Google Docs,1
+User5,2026-06-26,Udemy,Stack Overflow,1
+User5,2026-06-27,Claude,Amazon,1
+User5,2026-06-28,PUBG Mobile,Overleaf,1
+User5,2026-06-29,Jira,WhatsApp Web,1
+User5,2026-06-30,Reddit,Udemy,1
+User5,2026-07-01,HackerRank,Snapchat,1
+User5,2026-07-02,ChatGPT,Candy Crush,1
+User5,2026-07-03,ChatGPT,Flipkart,1
+User5,2026-07-04,Zoom,YouTube,1
+User5,2026-07-05,Amazon,Postgres pgAdmin,1
+User5,2026-07-06,Twitter/X,Snapchat,1
+User5,2026-07-07,Amazon,LinkedIn Learning,1
+User5,2026-07-08,Jupyter Notebook,YouTube,1
+User5,2026-07-09,WhatsApp Web,Candy Crush,1
+User5,2026-07-10,Amazon,Candy Crush,1
+User5,2026-07-11,GeeksforGeeks,Flipkart,1
+User5,2026-07-12,Candy Crush,GitHub,1
+User5,2026-07-13,Coursera,Claude,1
+User5,2026-07-14,YouTube,Spotify,1
+User5,2026-07-15,W3Schools,Flipkart,1

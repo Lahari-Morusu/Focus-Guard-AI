@@ -1,0 +1,2269 @@
+user_type,period,from_app,to_app,switch_count,duration_weighted_minutes
+User1,2026-06-01,YouTube,HackerRank,1,80.0
+User1,2026-06-01,HackerRank,Google Sheets,1,88.0
+User1,2026-06-01,Google Sheets,Coursera,1,10.0
+User1,2026-06-01,Coursera,News18,1,61.0
+User1,2026-06-01,News18,Coursera,1,102.0
+User1,2026-06-01,Coursera,Postgres pgAdmin,1,65.0
+User1,2026-06-01,Postgres pgAdmin,GitLab,1,20.0
+User1,2026-06-02,Jupyter Notebook,Overleaf,1,94.0
+User1,2026-06-02,Overleaf,YouTube,1,45.0
+User1,2026-06-02,YouTube,VS Code,1,104.0
+User1,2026-06-02,VS Code,Google Sheets,1,112.0
+User1,2026-06-02,Google Sheets,Coursera,1,39.0
+User1,2026-06-02,Coursera,Google Docs,1,32.0
+User1,2026-06-02,Google Docs,GeeksforGeeks,1,88.0
+User1,2026-06-03,Pinterest,WhatsApp Web,1,102.0
+User1,2026-06-03,WhatsApp Web,Hotstar,1,110.0
+User1,2026-06-03,Hotstar,Facebook,1,6.0
+User1,2026-06-03,Facebook,Pinterest,1,57.0
+User1,2026-06-03,Pinterest,Claude,1,20.0
+User1,2026-06-03,Claude,Claude,1,73.0
+User1,2026-06-03,Claude,Coursera,1,34.0
+User1,2026-06-03,Coursera,Hotstar,1,42.0
+User1,2026-06-03,Hotstar,Pinterest,1,82.0
+User1,2026-06-03,Pinterest,CodeChef,1,97.0
+User1,2026-06-03,CodeChef,Snapchat,1,39.0
+User1,2026-06-04,Candy Crush,GeeksforGeeks,1,43.0
+User1,2026-06-04,GeeksforGeeks,W3Schools,1,3.0
+User1,2026-06-04,W3Schools,Postgres pgAdmin,1,51.0
+User1,2026-06-04,Postgres pgAdmin,HackerRank,1,40.0
+User1,2026-06-04,HackerRank,VS Code,1,71.0
+User1,2026-06-04,VS Code,Notion,1,25.0
+User1,2026-06-04,Notion,Twitter/X,1,90.0
+User1,2026-06-04,Twitter/X,Candy Crush,1,35.0
+User1,2026-06-04,Candy Crush,VS Code,1,108.0
+User1,2026-06-04,VS Code,Zoom,1,68.0
+User1,2026-06-05,GitHub,GitLab,1,65.0
+User1,2026-06-05,GitLab,Reddit,1,41.0
+User1,2026-06-05,Reddit,Microsoft Teams,1,73.0
+User1,2026-06-05,Microsoft Teams,Overleaf,1,73.0
+User1,2026-06-05,Overleaf,Postgres pgAdmin,1,11.0
+User1,2026-06-05,Postgres pgAdmin,Notion,1,34.0
+User1,2026-06-05,Notion,Netflix,1,79.0
+User1,2026-06-05,Netflix,Jupyter Notebook,1,58.0
+User1,2026-06-05,Jupyter Notebook,GeeksforGeeks,1,2.0
+User1,2026-06-05,GeeksforGeeks,ChatGPT,1,41.0
+User1,2026-06-06,Candy Crush,Overleaf,1,27.0
+User1,2026-06-06,Overleaf,W3Schools,1,56.0
+User1,2026-06-06,W3Schools,GitLab,1,49.0
+User1,2026-06-06,GitLab,Google Sheets,1,67.0
+User1,2026-06-06,Google Sheets,Zoom,1,58.0
+User1,2026-06-06,Zoom,Candy Crush,1,120.0
+User1,2026-06-06,Candy Crush,HackerRank,1,91.0
+User1,2026-06-06,HackerRank,GitLab,1,93.0
+User1,2026-06-06,GitLab,Claude,1,50.0
+User1,2026-06-06,Claude,ChatGPT,1,79.0
+User1,2026-06-06,ChatGPT,Microsoft Teams,1,6.0
+User1,2026-06-06,Microsoft Teams,LeetCode,1,28.0
+User1,2026-06-06,LeetCode,Amazon,1,84.0
+User1,2026-06-06,Amazon,GitLab,1,12.0
+User1,2026-06-07,Postgres pgAdmin,Postgres pgAdmin,1,103.0
+User1,2026-06-07,Postgres pgAdmin,Overleaf,1,97.0
+User1,2026-06-07,Overleaf,GitHub,1,25.0
+User1,2026-06-07,GitHub,Google Sheets,1,89.0
+User1,2026-06-07,Google Sheets,Hotstar,1,3.0
+User1,2026-06-07,Hotstar,Snapchat,1,22.0
+User1,2026-06-07,Snapchat,Google Docs,1,9.0
+User1,2026-06-07,Google Docs,Claude,1,70.0
+User1,2026-06-07,Claude,YouTube,1,74.0
+User1,2026-06-08,Overleaf,Jira,1,54.0
+User1,2026-06-08,Jira,Jupyter Notebook,1,91.0
+User1,2026-06-08,Jupyter Notebook,Google Docs,1,63.0
+User1,2026-06-08,Google Docs,Zoom,1,4.0
+User1,2026-06-08,Zoom,Jira,1,89.0
+User1,2026-06-08,Jira,GitHub,1,21.0
+User1,2026-06-08,GitHub,WhatsApp Web,1,75.0
+User1,2026-06-08,WhatsApp Web,Prime Video,1,109.0
+User1,2026-06-08,Prime Video,Slack,1,106.0
+User1,2026-06-08,Slack,LinkedIn Learning,1,70.0
+User1,2026-06-08,LinkedIn Learning,Snapchat,1,59.0
+User1,2026-06-08,Snapchat,Udemy,1,80.0
+User1,2026-06-08,Udemy,GitLab,1,94.0
+User1,2026-06-08,GitLab,Claude,1,89.0
+User1,2026-06-08,Claude,Claude,1,53.0
+User1,2026-06-08,Claude,PUBG Mobile,1,31.0
+User1,2026-06-08,PUBG Mobile,Pinterest,1,11.0
+User1,2026-06-08,Pinterest,Twitter/X,1,115.0
+User1,2026-06-08,Twitter/X,Google Sheets,1,36.0
+User1,2026-06-08,Google Sheets,Microsoft Teams,1,90.0
+User1,2026-06-08,Microsoft Teams,Postgres pgAdmin,1,111.0
+User1,2026-06-09,Microsoft Teams,TikTok,1,49.0
+User1,2026-06-09,TikTok,Snapchat,1,50.0
+User1,2026-06-09,Snapchat,Amazon,1,7.0
+User1,2026-06-09,Amazon,Google Meet,1,79.0
+User1,2026-06-09,Google Meet,Reddit,1,99.0
+User1,2026-06-09,Reddit,Spotify,1,48.0
+User1,2026-06-09,Spotify,Microsoft Teams,1,34.0
+User1,2026-06-09,Microsoft Teams,GitHub,1,72.0
+User1,2026-06-09,GitHub,GitLab,1,68.0
+User1,2026-06-09,GitLab,Slack,1,62.0
+User1,2026-06-09,Slack,Trello,1,21.0
+User1,2026-06-09,Trello,HackerRank,1,15.0
+User1,2026-06-09,HackerRank,Facebook,1,111.0
+User1,2026-06-09,Facebook,Google Docs,1,36.0
+User1,2026-06-09,Google Docs,ChatGPT,1,13.0
+User1,2026-06-09,ChatGPT,Twitter/X,1,89.0
+User1,2026-06-09,Twitter/X,Snapchat,1,96.0
+User1,2026-06-10,Prime Video,Slack,1,99.0
+User1,2026-06-10,Slack,Jira,1,116.0
+User1,2026-06-10,Jira,PUBG Mobile,1,17.0
+User1,2026-06-10,PUBG Mobile,Claude,1,66.0
+User1,2026-06-10,Claude,ChatGPT,1,37.0
+User1,2026-06-10,ChatGPT,Google Docs,1,89.0
+User1,2026-06-10,Google Docs,LeetCode,1,29.0
+User1,2026-06-10,LeetCode,Notion,1,61.0
+User1,2026-06-10,Notion,Google Meet,1,56.0
+User1,2026-06-10,Google Meet,Microsoft Teams,1,56.0
+User1,2026-06-11,Twitter/X,TikTok,1,37.0
+User1,2026-06-11,TikTok,Udemy,1,9.0
+User1,2026-06-11,Udemy,LeetCode,1,50.0
+User1,2026-06-11,LeetCode,GitHub,1,50.0
+User1,2026-06-11,GitHub,Zoom,1,62.0
+User1,2026-06-11,Zoom,Flipkart,1,51.0
+User1,2026-06-11,Flipkart,Postgres pgAdmin,1,119.0
+User1,2026-06-11,Postgres pgAdmin,Candy Crush,1,37.0
+User1,2026-06-12,GitHub,Zoom,1,23.0
+User1,2026-06-12,Zoom,Jupyter Notebook,1,23.0
+User1,2026-06-12,Jupyter Notebook,News18,1,90.0
+User1,2026-06-12,News18,Pinterest,1,89.0
+User1,2026-06-12,Pinterest,Instagram,1,76.0
+User1,2026-06-12,Instagram,GitLab,1,59.0
+User1,2026-06-12,GitLab,Postgres pgAdmin,1,7.0
+User1,2026-06-13,ChatGPT,ChatGPT,1,79.0
+User1,2026-06-13,ChatGPT,Instagram,1,25.0
+User1,2026-06-13,Instagram,Stack Overflow,1,98.0
+User1,2026-06-13,Stack Overflow,Twitter/X,1,25.0
+User1,2026-06-13,Twitter/X,Netflix,1,9.0
+User1,2026-06-13,Netflix,TikTok,1,35.0
+User1,2026-06-13,TikTok,Netflix,1,17.0
+User1,2026-06-13,Netflix,W3Schools,1,35.0
+User1,2026-06-13,W3Schools,Candy Crush,1,1.0
+User1,2026-06-13,Candy Crush,GeeksforGeeks,1,59.0
+User1,2026-06-14,YouTube,W3Schools,1,91.0
+User1,2026-06-14,W3Schools,LinkedIn Learning,1,9.0
+User1,2026-06-14,LinkedIn Learning,Trello,1,102.0
+User1,2026-06-14,Trello,VS Code,1,101.0
+User1,2026-06-14,VS Code,LeetCode,1,97.0
+User1,2026-06-14,LeetCode,GitLab,1,48.0
+User1,2026-06-14,GitLab,Notion,1,51.0
+User1,2026-06-15,Slack,Hotstar,1,104.0
+User1,2026-06-15,Hotstar,GitHub,1,5.0
+User1,2026-06-15,GitHub,Stack Overflow,1,88.0
+User1,2026-06-15,Stack Overflow,Jira,1,41.0
+User1,2026-06-15,Jira,Flipkart,1,108.0
+User1,2026-06-15,Flipkart,W3Schools,1,7.0
+User1,2026-06-15,W3Schools,GeeksforGeeks,1,27.0
+User1,2026-06-15,GeeksforGeeks,VS Code,1,113.0
+User1,2026-06-16,GeeksforGeeks,Jupyter Notebook,1,10.0
+User1,2026-06-16,Jupyter Notebook,Udemy,1,39.0
+User1,2026-06-16,Udemy,Spotify,1,11.0
+User1,2026-06-16,Spotify,Twitter/X,1,19.0
+User1,2026-06-16,Twitter/X,ChatGPT,1,3.0
+User1,2026-06-16,ChatGPT,Hotstar,1,40.0
+User1,2026-06-16,Hotstar,TikTok,1,18.0
+User1,2026-06-16,TikTok,Trello,1,47.0
+User1,2026-06-17,Google Meet,LinkedIn Learning,1,13.0
+User1,2026-06-17,LinkedIn Learning,LeetCode,1,20.0
+User1,2026-06-17,LeetCode,TikTok,1,88.0
+User1,2026-06-17,TikTok,Jupyter Notebook,1,78.0
+User1,2026-06-17,Jupyter Notebook,Notion,1,53.0
+User1,2026-06-17,Notion,Amazon,1,55.0
+User1,2026-06-17,Amazon,PUBG Mobile,1,21.0
+User1,2026-06-17,PUBG Mobile,Amazon,1,88.0
+User1,2026-06-18,Flipkart,Notion,1,103.0
+User1,2026-06-18,Notion,Google Sheets,1,64.0
+User1,2026-06-18,Google Sheets,Notion,1,92.0
+User1,2026-06-18,Notion,Udemy,1,60.0
+User1,2026-06-18,Udemy,Jira,1,46.0
+User1,2026-06-18,Jira,Google Docs,1,64.0
+User1,2026-06-18,Google Docs,WhatsApp Web,1,81.0
+User1,2026-06-18,WhatsApp Web,Stack Overflow,1,46.0
+User1,2026-06-18,Stack Overflow,GitHub,1,50.0
+User1,2026-06-18,GitHub,Facebook,1,77.0
+User1,2026-06-19,Google Sheets,TikTok,1,78.0
+User1,2026-06-19,TikTok,Postgres pgAdmin,1,79.0
+User1,2026-06-19,Postgres pgAdmin,HackerRank,1,99.0
+User1,2026-06-19,HackerRank,Hotstar,1,109.0
+User1,2026-06-19,Hotstar,LeetCode,1,70.0
+User1,2026-06-19,LeetCode,W3Schools,1,117.0
+User1,2026-06-19,W3Schools,Spotify,1,57.0
+User1,2026-06-19,Spotify,Trello,1,11.0
+User1,2026-06-19,Trello,Jira,1,82.0
+User1,2026-06-19,Jira,News18,1,89.0
+User1,2026-06-19,News18,Amazon,1,39.0
+User1,2026-06-19,Amazon,Amazon,1,62.0
+User1,2026-06-19,Amazon,Facebook,1,21.0
+User1,2026-06-19,Facebook,GitHub,1,52.0
+User1,2026-06-20,Slack,Zoom,1,67.0
+User1,2026-06-20,Zoom,CodeChef,1,56.0
+User1,2026-06-20,CodeChef,Instagram,1,34.0
+User1,2026-06-20,Instagram,PUBG Mobile,1,1.0
+User1,2026-06-20,PUBG Mobile,LeetCode,1,93.0
+User1,2026-06-20,LeetCode,Postgres pgAdmin,1,13.0
+User1,2026-06-20,Postgres pgAdmin,GeeksforGeeks,1,12.0
+User1,2026-06-20,GeeksforGeeks,ChatGPT,1,18.0
+User1,2026-06-20,ChatGPT,Hotstar,1,116.0
+User1,2026-06-20,Hotstar,News18,1,83.0
+User1,2026-06-20,News18,GitHub,1,13.0
+User1,2026-06-21,Coursera,Netflix,1,87.0
+User1,2026-06-21,Netflix,Spotify,1,21.0
+User1,2026-06-21,Spotify,Notion,1,30.0
+User1,2026-06-21,Notion,Flipkart,1,7.0
+User1,2026-06-21,Flipkart,VS Code,1,25.0
+User1,2026-06-21,VS Code,VS Code,1,10.0
+User1,2026-06-21,VS Code,Netflix,1,73.0
+User1,2026-06-21,Netflix,Coursera,1,1.0
+User1,2026-06-21,Coursera,Hotstar,1,57.0
+User1,2026-06-21,Hotstar,Flipkart,1,53.0
+User1,2026-06-22,Candy Crush,W3Schools,1,2.0
+User1,2026-06-22,W3Schools,Claude,1,71.0
+User1,2026-06-22,Claude,News18,1,76.0
+User1,2026-06-22,News18,ChatGPT,1,70.0
+User1,2026-06-22,ChatGPT,Google Meet,1,51.0
+User1,2026-06-22,Google Meet,Flipkart,1,53.0
+User1,2026-06-22,Flipkart,Slack,1,60.0
+User1,2026-06-22,Slack,Zoom,1,88.0
+User1,2026-06-22,Zoom,Twitter/X,1,49.0
+User1,2026-06-22,Twitter/X,Zoom,1,106.0
+User1,2026-06-22,Zoom,Overleaf,1,49.0
+User1,2026-06-23,ChatGPT,Candy Crush,1,76.0
+User1,2026-06-23,Candy Crush,WhatsApp Web,1,116.0
+User1,2026-06-23,WhatsApp Web,Prime Video,1,36.0
+User1,2026-06-23,Prime Video,Twitter/X,1,42.0
+User1,2026-06-23,Twitter/X,Google Docs,1,109.0
+User1,2026-06-23,Google Docs,Stack Overflow,1,33.0
+User1,2026-06-23,Stack Overflow,Google Docs,1,75.0
+User1,2026-06-23,Google Docs,Twitter/X,1,103.0
+User1,2026-06-23,Twitter/X,Trello,1,35.0
+User1,2026-06-23,Trello,Trello,1,71.0
+User1,2026-06-23,Trello,Pinterest,1,57.0
+User1,2026-06-23,Pinterest,Google Docs,1,60.0
+User1,2026-06-23,Google Docs,Trello,1,103.0
+User1,2026-06-24,Prime Video,Flipkart,1,51.0
+User1,2026-06-24,Flipkart,News18,1,87.0
+User1,2026-06-24,News18,LeetCode,1,112.0
+User1,2026-06-24,LeetCode,Pinterest,1,48.0
+User1,2026-06-24,Pinterest,LinkedIn Learning,1,3.0
+User1,2026-06-24,LinkedIn Learning,Hotstar,1,91.0
+User1,2026-06-24,Hotstar,Stack Overflow,1,73.0
+User1,2026-06-24,Stack Overflow,WhatsApp Web,1,119.0
+User1,2026-06-24,WhatsApp Web,GitHub,1,114.0
+User1,2026-06-24,GitHub,Candy Crush,1,91.0
+User1,2026-06-24,Candy Crush,Udemy,1,57.0
+User1,2026-06-24,Udemy,HackerRank,1,87.0
+User1,2026-06-24,HackerRank,Reddit,1,6.0
+User1,2026-06-25,PUBG Mobile,Spotify,1,94.0
+User1,2026-06-25,Spotify,Snapchat,1,64.0
+User1,2026-06-25,Snapchat,Hotstar,1,33.0
+User1,2026-06-25,Hotstar,Google Meet,1,97.0
+User1,2026-06-25,Google Meet,Notion,1,101.0
+User1,2026-06-25,Notion,Postgres pgAdmin,1,14.0
+User1,2026-06-25,Postgres pgAdmin,Notion,1,56.0
+User1,2026-06-25,Notion,WhatsApp Web,1,118.0
+User1,2026-06-25,WhatsApp Web,Claude,1,83.0
+User1,2026-06-25,Claude,GitLab,1,85.0
+User1,2026-06-25,GitLab,GitLab,1,68.0
+User1,2026-06-25,GitLab,Candy Crush,1,3.0
+User1,2026-06-25,Candy Crush,Pinterest,1,29.0
+User1,2026-06-26,YouTube,WhatsApp Web,1,109.0
+User1,2026-06-26,WhatsApp Web,Flipkart,1,83.0
+User1,2026-06-26,Flipkart,News18,1,74.0
+User1,2026-06-26,News18,HackerRank,1,70.0
+User1,2026-06-26,HackerRank,LinkedIn Learning,1,27.0
+User1,2026-06-26,LinkedIn Learning,LinkedIn Learning,1,116.0
+User1,2026-06-26,LinkedIn Learning,Amazon,1,30.0
+User1,2026-06-27,Pinterest,Flipkart,1,108.0
+User1,2026-06-27,Flipkart,YouTube,1,49.0
+User1,2026-06-27,YouTube,Spotify,1,86.0
+User1,2026-06-27,Spotify,Netflix,1,88.0
+User1,2026-06-27,Netflix,Postgres pgAdmin,1,49.0
+User1,2026-06-27,Postgres pgAdmin,Slack,1,11.0
+User1,2026-06-27,Slack,Instagram,1,27.0
+User1,2026-06-27,Instagram,Instagram,1,86.0
+User1,2026-06-27,Instagram,Prime Video,1,100.0
+User1,2026-06-27,Prime Video,Flipkart,1,16.0
+User1,2026-06-27,Flipkart,W3Schools,1,72.0
+User1,2026-06-27,W3Schools,Microsoft Teams,1,12.0
+User1,2026-06-27,Microsoft Teams,WhatsApp Web,1,1.0
+User1,2026-06-27,WhatsApp Web,Jupyter Notebook,1,113.0
+User1,2026-06-27,Jupyter Notebook,LinkedIn Learning,1,84.0
+User1,2026-06-28,Hotstar,Postgres pgAdmin,1,40.0
+User1,2026-06-28,Postgres pgAdmin,VS Code,1,103.0
+User1,2026-06-28,VS Code,Reddit,1,7.0
+User1,2026-06-28,Reddit,Pinterest,1,47.0
+User1,2026-06-28,Pinterest,Amazon,1,109.0
+User1,2026-06-28,Amazon,Instagram,1,95.0
+User1,2026-06-28,Instagram,Candy Crush,1,20.0
+User1,2026-06-28,Candy Crush,Snapchat,1,43.0
+User1,2026-06-28,Snapchat,Facebook,1,76.0
+User1,2026-06-28,Facebook,Spotify,1,51.0
+User1,2026-06-29,W3Schools,Prime Video,1,69.0
+User1,2026-06-29,Prime Video,Twitter/X,1,32.0
+User1,2026-06-29,Twitter/X,Jira,1,35.0
+User1,2026-06-29,Jira,Slack,1,106.0
+User1,2026-06-29,Slack,Instagram,1,79.0
+User1,2026-06-29,Instagram,Google Meet,1,18.0
+User1,2026-06-29,Google Meet,YouTube,1,61.0
+User1,2026-06-29,YouTube,Hotstar,1,43.0
+User1,2026-06-29,Hotstar,Flipkart,1,16.0
+User1,2026-06-29,Flipkart,Facebook,1,58.0
+User1,2026-06-29,Facebook,Claude,1,28.0
+User1,2026-06-30,Postgres pgAdmin,Jira,1,55.0
+User1,2026-06-30,Jira,Reddit,1,115.0
+User1,2026-06-30,Reddit,TikTok,1,38.0
+User1,2026-06-30,TikTok,WhatsApp Web,1,75.0
+User1,2026-06-30,WhatsApp Web,Netflix,1,52.0
+User1,2026-06-30,Netflix,W3Schools,1,98.0
+User1,2026-06-30,W3Schools,Google Docs,1,25.0
+User1,2026-06-30,Google Docs,TikTok,1,9.0
+User1,2026-06-30,TikTok,Notion,1,98.0
+User1,2026-06-30,Notion,Prime Video,1,58.0
+User1,2026-06-30,Prime Video,W3Schools,1,25.0
+User1,2026-07-01,Hotstar,W3Schools,1,76.0
+User1,2026-07-01,W3Schools,ChatGPT,1,93.0
+User1,2026-07-01,ChatGPT,Flipkart,1,93.0
+User1,2026-07-01,Flipkart,Facebook,1,19.0
+User1,2026-07-01,Facebook,Netflix,1,5.0
+User1,2026-07-01,Netflix,TikTok,1,35.0
+User1,2026-07-01,TikTok,Hotstar,1,8.0
+User1,2026-07-01,Hotstar,ChatGPT,1,63.0
+User1,2026-07-01,ChatGPT,Instagram,1,18.0
+User1,2026-07-02,Jupyter Notebook,Hotstar,1,54.0
+User1,2026-07-02,Hotstar,Instagram,1,73.0
+User1,2026-07-02,Instagram,Udemy,1,74.0
+User1,2026-07-02,Udemy,W3Schools,1,58.0
+User1,2026-07-02,W3Schools,Twitter/X,1,13.0
+User1,2026-07-02,Twitter/X,LinkedIn Learning,1,73.0
+User1,2026-07-02,LinkedIn Learning,PUBG Mobile,1,5.0
+User1,2026-07-03,Claude,GitHub,1,24.0
+User1,2026-07-03,GitHub,Snapchat,1,99.0
+User1,2026-07-03,Snapchat,Netflix,1,52.0
+User1,2026-07-03,Netflix,HackerRank,1,87.0
+User1,2026-07-03,HackerRank,Google Meet,1,116.0
+User1,2026-07-03,Google Meet,Facebook,1,94.0
+User1,2026-07-03,Facebook,HackerRank,1,67.0
+User1,2026-07-03,HackerRank,Slack,1,54.0
+User1,2026-07-03,Slack,Google Meet,1,65.0
+User1,2026-07-03,Google Meet,Snapchat,1,50.0
+User1,2026-07-04,Spotify,Zoom,1,21.0
+User1,2026-07-04,Zoom,VS Code,1,97.0
+User1,2026-07-04,VS Code,CodeChef,1,31.0
+User1,2026-07-04,CodeChef,News18,1,10.0
+User1,2026-07-04,News18,Candy Crush,1,10.0
+User1,2026-07-04,Candy Crush,TikTok,1,52.0
+User1,2026-07-04,TikTok,Twitter/X,1,53.0
+User1,2026-07-04,Twitter/X,Amazon,1,67.0
+User1,2026-07-04,Amazon,Microsoft Teams,1,31.0
+User1,2026-07-04,Microsoft Teams,Jupyter Notebook,1,80.0
+User1,2026-07-04,Jupyter Notebook,LinkedIn Learning,1,7.0
+User1,2026-07-04,LinkedIn Learning,News18,1,74.0
+User1,2026-07-04,News18,Netflix,1,25.0
+User1,2026-07-04,Netflix,Stack Overflow,1,96.0
+User1,2026-07-05,Trello,W3Schools,1,84.0
+User1,2026-07-05,W3Schools,Facebook,1,57.0
+User1,2026-07-05,Facebook,GitLab,1,61.0
+User1,2026-07-05,GitLab,TikTok,1,7.0
+User1,2026-07-05,TikTok,HackerRank,1,44.0
+User1,2026-07-05,HackerRank,VS Code,1,44.0
+User1,2026-07-05,VS Code,PUBG Mobile,1,49.0
+User1,2026-07-06,Slack,TikTok,1,13.0
+User1,2026-07-06,TikTok,WhatsApp Web,1,44.0
+User1,2026-07-06,WhatsApp Web,Google Docs,1,112.0
+User1,2026-07-06,Google Docs,Zoom,1,37.0
+User1,2026-07-06,Zoom,Coursera,1,44.0
+User1,2026-07-06,Coursera,Prime Video,1,51.0
+User1,2026-07-06,Prime Video,Notion,1,80.0
+User1,2026-07-06,Notion,ChatGPT,1,60.0
+User1,2026-07-06,ChatGPT,HackerRank,1,8.0
+User1,2026-07-06,HackerRank,Instagram,1,32.0
+User1,2026-07-06,Instagram,Google Docs,1,78.0
+User1,2026-07-06,Google Docs,ChatGPT,1,36.0
+User1,2026-07-07,Amazon,Jupyter Notebook,1,90.0
+User1,2026-07-07,Jupyter Notebook,Zoom,1,88.0
+User1,2026-07-07,Zoom,Microsoft Teams,1,12.0
+User1,2026-07-07,Microsoft Teams,Coursera,1,112.0
+User1,2026-07-07,Coursera,Prime Video,1,11.0
+User1,2026-07-07,Prime Video,Claude,1,106.0
+User1,2026-07-07,Claude,Facebook,1,4.0
+User1,2026-07-07,Facebook,Trello,1,111.0
+User1,2026-07-08,Overleaf,W3Schools,1,55.0
+User1,2026-07-08,W3Schools,GeeksforGeeks,1,10.0
+User1,2026-07-08,GeeksforGeeks,Overleaf,1,2.0
+User1,2026-07-08,Overleaf,Pinterest,1,89.0
+User1,2026-07-08,Pinterest,GitLab,1,56.0
+User1,2026-07-08,GitLab,Claude,1,59.0
+User1,2026-07-08,Claude,W3Schools,1,111.0
+User1,2026-07-08,W3Schools,Microsoft Teams,1,77.0
+User1,2026-07-08,Microsoft Teams,VS Code,1,76.0
+User1,2026-07-09,Spotify,HackerRank,1,55.0
+User1,2026-07-09,HackerRank,Udemy,1,33.0
+User1,2026-07-09,Udemy,Slack,1,1.0
+User1,2026-07-09,Slack,Microsoft Teams,1,88.0
+User1,2026-07-09,Microsoft Teams,Amazon,1,46.0
+User1,2026-07-09,Amazon,Snapchat,1,24.0
+User1,2026-07-09,Snapchat,Jira,1,71.0
+User1,2026-07-09,Jira,Jupyter Notebook,1,76.0
+User1,2026-07-09,Jupyter Notebook,Stack Overflow,1,39.0
+User1,2026-07-09,Stack Overflow,Coursera,1,108.0
+User1,2026-07-09,Coursera,Trello,1,62.0
+User1,2026-07-09,Trello,ChatGPT,1,99.0
+User1,2026-07-09,ChatGPT,Hotstar,1,111.0
+User1,2026-07-10,Google Sheets,TikTok,1,66.0
+User1,2026-07-10,TikTok,PUBG Mobile,1,71.0
+User1,2026-07-10,PUBG Mobile,Notion,1,9.0
+User1,2026-07-10,Notion,Trello,1,17.0
+User1,2026-07-10,Trello,Postgres pgAdmin,1,53.0
+User1,2026-07-10,Postgres pgAdmin,YouTube,1,57.0
+User1,2026-07-10,YouTube,Microsoft Teams,1,105.0
+User1,2026-07-10,Microsoft Teams,Candy Crush,1,72.0
+User1,2026-07-10,Candy Crush,GeeksforGeeks,1,92.0
+User1,2026-07-10,GeeksforGeeks,ChatGPT,1,57.0
+User1,2026-07-11,Postgres pgAdmin,Netflix,1,98.0
+User1,2026-07-11,Netflix,LeetCode,1,6.0
+User1,2026-07-11,LeetCode,Instagram,1,104.0
+User1,2026-07-11,Instagram,News18,1,52.0
+User1,2026-07-11,News18,Postgres pgAdmin,1,111.0
+User1,2026-07-11,Postgres pgAdmin,Microsoft Teams,1,86.0
+User1,2026-07-11,Microsoft Teams,Stack Overflow,1,79.0
+User1,2026-07-11,Stack Overflow,Instagram,1,5.0
+User1,2026-07-11,Instagram,VS Code,1,103.0
+User1,2026-07-11,VS Code,HackerRank,1,32.0
+User1,2026-07-11,HackerRank,GitHub,1,112.0
+User1,2026-07-11,GitHub,Netflix,1,69.0
+User1,2026-07-12,Microsoft Teams,Candy Crush,1,45.0
+User1,2026-07-12,Candy Crush,Twitter/X,2,57.0
+User1,2026-07-12,Twitter/X,Snapchat,1,91.0
+User1,2026-07-12,Snapchat,WhatsApp Web,1,88.0
+User1,2026-07-12,WhatsApp Web,Candy Crush,1,92.0
+User1,2026-07-12,Twitter/X,LinkedIn Learning,1,105.0
+User1,2026-07-12,LinkedIn Learning,HackerRank,1,34.0
+User1,2026-07-13,Candy Crush,HackerRank,1,20.0
+User1,2026-07-13,HackerRank,Claude,1,79.0
+User1,2026-07-13,Claude,News18,1,1.0
+User1,2026-07-13,News18,PUBG Mobile,1,77.0
+User1,2026-07-13,PUBG Mobile,Google Sheets,1,43.0
+User1,2026-07-13,Google Sheets,Google Sheets,1,59.0
+User1,2026-07-13,Google Sheets,ChatGPT,1,50.0
+User1,2026-07-13,ChatGPT,Stack Overflow,1,114.0
+User1,2026-07-13,Stack Overflow,Udemy,1,87.0
+User1,2026-07-13,Udemy,Prime Video,1,26.0
+User1,2026-07-13,Prime Video,Amazon,1,98.0
+User1,2026-07-14,Claude,Slack,1,108.0
+User1,2026-07-14,Slack,Slack,1,87.0
+User1,2026-07-14,Slack,VS Code,1,5.0
+User1,2026-07-14,VS Code,Google Docs,1,18.0
+User1,2026-07-14,Google Docs,GeeksforGeeks,1,103.0
+User1,2026-07-14,GeeksforGeeks,VS Code,1,1.0
+User1,2026-07-14,VS Code,Spotify,1,7.0
+User1,2026-07-14,Spotify,Amazon,1,116.0
+User1,2026-07-14,Amazon,Trello,1,49.0
+User1,2026-07-15,Jira,TikTok,1,50.0
+User1,2026-07-15,TikTok,Trello,1,96.0
+User1,2026-07-15,Trello,GeeksforGeeks,1,80.0
+User1,2026-07-15,GeeksforGeeks,Jupyter Notebook,1,36.0
+User1,2026-07-15,Jupyter Notebook,PUBG Mobile,1,119.0
+User1,2026-07-15,PUBG Mobile,Slack,1,72.0
+User1,2026-07-15,Slack,Candy Crush,1,60.5
+User1,2026-07-15,Candy Crush,Microsoft Teams,1,32.5
+User1,2026-07-15,Microsoft Teams,LinkedIn Learning,1,7.0
+User1,2026-07-15,LinkedIn Learning,Amazon,1,80.0
+User1,2026-07-15,Amazon,Netflix,1,48.0
+User2,2026-06-01,Stack Overflow,Zoom,1,12.0
+User2,2026-06-01,Zoom,Postgres pgAdmin,1,30.0
+User2,2026-06-01,Postgres pgAdmin,Hotstar,1,78.0
+User2,2026-06-01,Hotstar,Overleaf,1,29.0
+User2,2026-06-01,Overleaf,Reddit,1,110.0
+User2,2026-06-01,Reddit,Overleaf,1,59.0
+User2,2026-06-02,Pinterest,Snapchat,1,115.0
+User2,2026-06-02,Snapchat,News18,1,78.0
+User2,2026-06-02,News18,ChatGPT,1,45.0
+User2,2026-06-02,ChatGPT,Instagram,1,84.0
+User2,2026-06-02,Instagram,Stack Overflow,1,40.0
+User2,2026-06-02,Stack Overflow,Pinterest,1,118.0
+User2,2026-06-02,Pinterest,PUBG Mobile,1,34.0
+User2,2026-06-02,PUBG Mobile,Prime Video,1,106.0
+User2,2026-06-02,Prime Video,Spotify,1,21.0
+User2,2026-06-02,Spotify,Twitter/X,1,75.0
+User2,2026-06-02,Twitter/X,Twitter/X,1,57.0
+User2,2026-06-02,Twitter/X,VS Code,1,18.0
+User2,2026-06-03,Udemy,W3Schools,1,51.0
+User2,2026-06-03,W3Schools,VS Code,1,74.0
+User2,2026-06-03,VS Code,Instagram,1,84.0
+User2,2026-06-03,Instagram,Pinterest,1,49.0
+User2,2026-06-03,Pinterest,Reddit,1,116.0
+User2,2026-06-03,Reddit,Snapchat,1,16.0
+User2,2026-06-03,Snapchat,YouTube,1,11.0
+User2,2026-06-03,YouTube,LeetCode,1,34.0
+User2,2026-06-03,LeetCode,Facebook,1,118.0
+User2,2026-06-03,Facebook,Flipkart,1,22.0
+User2,2026-06-03,Flipkart,Overleaf,1,47.0
+User2,2026-06-03,Overleaf,Google Sheets,1,4.0
+User2,2026-06-04,Coursera,Postgres pgAdmin,1,119.0
+User2,2026-06-04,Postgres pgAdmin,Zoom,1,119.0
+User2,2026-06-04,Zoom,TikTok,1,10.0
+User2,2026-06-04,TikTok,GeeksforGeeks,1,54.0
+User2,2026-06-04,GeeksforGeeks,Postgres pgAdmin,1,55.0
+User2,2026-06-04,Postgres pgAdmin,Amazon,1,84.0
+User2,2026-06-04,Amazon,ChatGPT,1,25.0
+User2,2026-06-04,ChatGPT,Jupyter Notebook,1,40.0
+User2,2026-06-04,Jupyter Notebook,Facebook,1,83.0
+User2,2026-06-04,Facebook,Claude,1,109.0
+User2,2026-06-05,Twitter/X,Slack,1,36.0
+User2,2026-06-05,Slack,Stack Overflow,1,65.0
+User2,2026-06-05,Stack Overflow,HackerRank,1,2.0
+User2,2026-06-05,HackerRank,Jupyter Notebook,1,8.0
+User2,2026-06-05,Jupyter Notebook,Jupyter Notebook,1,44.0
+User2,2026-06-05,Jupyter Notebook,Twitter/X,1,111.0
+User2,2026-06-05,Twitter/X,Microsoft Teams,1,45.0
+User2,2026-06-05,Microsoft Teams,Facebook,1,74.0
+User2,2026-06-05,Facebook,W3Schools,1,71.0
+User2,2026-06-06,Stack Overflow,Coursera,1,109.0
+User2,2026-06-06,Coursera,LeetCode,1,108.0
+User2,2026-06-06,LeetCode,Claude,1,65.0
+User2,2026-06-06,Claude,PUBG Mobile,1,43.0
+User2,2026-06-06,PUBG Mobile,Instagram,1,37.0
+User2,2026-06-06,Instagram,Udemy,1,116.0
+User2,2026-06-06,Udemy,Trello,1,23.0
+User2,2026-06-06,Trello,Instagram,1,1.0
+User2,2026-06-06,Instagram,Stack Overflow,1,105.0
+User2,2026-06-06,Stack Overflow,Instagram,1,109.0
+User2,2026-06-06,Instagram,Instagram,1,65.0
+User2,2026-06-07,Postgres pgAdmin,Stack Overflow,1,3.0
+User2,2026-06-07,Stack Overflow,Snapchat,1,99.0
+User2,2026-06-07,Snapchat,Jupyter Notebook,1,65.0
+User2,2026-06-07,Jupyter Notebook,Google Sheets,1,92.0
+User2,2026-06-07,Google Sheets,LinkedIn Learning,1,46.0
+User2,2026-06-07,LinkedIn Learning,TikTok,1,87.0
+User2,2026-06-07,TikTok,GitLab,1,7.0
+User2,2026-06-07,GitLab,HackerRank,1,14.0
+User2,2026-06-07,HackerRank,WhatsApp Web,1,100.0
+User2,2026-06-07,WhatsApp Web,Instagram,1,59.0
+User2,2026-06-07,Instagram,TikTok,1,35.0
+User2,2026-06-07,TikTok,Spotify,1,110.0
+User2,2026-06-07,Spotify,CodeChef,1,92.0
+User2,2026-06-07,CodeChef,Google Docs,1,20.0
+User2,2026-06-07,Google Docs,Netflix,1,90.0
+User2,2026-06-07,Netflix,Pinterest,1,79.0
+User2,2026-06-07,Pinterest,Notion,1,84.0
+User2,2026-06-08,Facebook,Stack Overflow,1,67.0
+User2,2026-06-08,Stack Overflow,Flipkart,1,57.0
+User2,2026-06-08,Flipkart,Udemy,1,103.0
+User2,2026-06-08,Udemy,Udemy,1,10.0
+User2,2026-06-08,Udemy,Jupyter Notebook,1,37.0
+User2,2026-06-08,Jupyter Notebook,Zoom,1,7.0
+User2,2026-06-08,Zoom,News18,1,66.0
+User2,2026-06-08,News18,Candy Crush,1,101.0
+User2,2026-06-08,Candy Crush,Trello,1,21.0
+User2,2026-06-08,Trello,Coursera,1,59.0
+User2,2026-06-08,Coursera,HackerRank,1,73.0
+User2,2026-06-08,HackerRank,Amazon,1,87.0
+User2,2026-06-08,Amazon,Slack,1,51.0
+User2,2026-06-08,Slack,CodeChef,1,58.0
+User2,2026-06-08,CodeChef,Coursera,1,4.0
+User2,2026-06-08,Coursera,GeeksforGeeks,1,41.0
+User2,2026-06-08,GeeksforGeeks,Notion,1,111.0
+User2,2026-06-09,Facebook,GitHub,1,105.0
+User2,2026-06-09,GitHub,Hotstar,1,78.0
+User2,2026-06-09,Hotstar,Netflix,1,47.0
+User2,2026-06-09,Netflix,GitLab,1,10.0
+User2,2026-06-09,GitLab,Coursera,1,120.0
+User2,2026-06-09,Coursera,News18,1,63.0
+User2,2026-06-09,News18,Claude,1,76.0
+User2,2026-06-09,Claude,LinkedIn Learning,1,37.0
+User2,2026-06-09,LinkedIn Learning,Spotify,1,30.0
+User2,2026-06-09,Spotify,LeetCode,1,85.0
+User2,2026-06-09,LeetCode,News18,1,67.0
+User2,2026-06-09,News18,GitHub,1,68.0
+User2,2026-06-09,GitHub,Snapchat,1,67.0
+User2,2026-06-10,Notion,GeeksforGeeks,1,71.0
+User2,2026-06-10,GeeksforGeeks,TikTok,1,15.0
+User2,2026-06-10,TikTok,Candy Crush,1,61.0
+User2,2026-06-10,Candy Crush,Facebook,1,32.0
+User2,2026-06-10,Facebook,CodeChef,1,82.0
+User2,2026-06-10,CodeChef,News18,1,81.0
+User2,2026-06-10,News18,Spotify,1,108.0
+User2,2026-06-10,Spotify,WhatsApp Web,1,81.0
+User2,2026-06-10,WhatsApp Web,GitHub,1,12.0
+User2,2026-06-10,GitHub,TikTok,1,102.0
+User2,2026-06-10,TikTok,YouTube,1,61.0
+User2,2026-06-10,YouTube,Postgres pgAdmin,1,54.0
+User2,2026-06-11,Zoom,YouTube,1,17.0
+User2,2026-06-11,YouTube,Prime Video,1,66.0
+User2,2026-06-11,Prime Video,Jira,1,54.0
+User2,2026-06-11,Jira,Instagram,1,65.0
+User2,2026-06-11,Instagram,Spotify,1,72.0
+User2,2026-06-11,Spotify,Google Meet,1,96.0
+User2,2026-06-11,Google Meet,Twitter/X,1,18.0
+User2,2026-06-11,Twitter/X,Hotstar,1,112.0
+User2,2026-06-11,Hotstar,W3Schools,1,11.0
+User2,2026-06-11,W3Schools,Instagram,1,116.0
+User2,2026-06-11,Instagram,Notion,1,59.0
+User2,2026-06-11,Notion,Jira,1,113.0
+User2,2026-06-12,Jupyter Notebook,Spotify,1,24.0
+User2,2026-06-12,Spotify,Trello,1,11.0
+User2,2026-06-12,Trello,LeetCode,1,107.0
+User2,2026-06-12,LeetCode,Instagram,1,9.0
+User2,2026-06-12,Instagram,Google Docs,1,113.0
+User2,2026-06-12,Google Docs,HackerRank,1,84.0
+User2,2026-06-12,HackerRank,HackerRank,1,118.0
+User2,2026-06-12,HackerRank,Hotstar,1,20.0
+User2,2026-06-12,Hotstar,Pinterest,1,102.0
+User2,2026-06-12,Pinterest,Pinterest,1,88.0
+User2,2026-06-13,Google Meet,Slack,1,112.0
+User2,2026-06-13,Slack,Jira,1,98.0
+User2,2026-06-13,Jira,News18,1,110.0
+User2,2026-06-13,News18,Instagram,1,113.0
+User2,2026-06-13,Instagram,Overleaf,1,5.0
+User2,2026-06-13,Overleaf,Coursera,1,44.0
+User2,2026-06-13,Coursera,Udemy,1,119.0
+User2,2026-06-14,Hotstar,GitHub,1,28.0
+User2,2026-06-14,GitHub,Claude,1,55.0
+User2,2026-06-14,Claude,ChatGPT,1,83.0
+User2,2026-06-14,ChatGPT,GitLab,1,97.0
+User2,2026-06-14,GitLab,Instagram,1,89.0
+User2,2026-06-14,Instagram,Zoom,1,61.0
+User2,2026-06-14,Zoom,Jupyter Notebook,1,17.0
+User2,2026-06-14,Jupyter Notebook,Zoom,1,8.0
+User2,2026-06-15,W3Schools,LinkedIn Learning,1,91.0
+User2,2026-06-15,LinkedIn Learning,ChatGPT,1,39.0
+User2,2026-06-15,ChatGPT,W3Schools,1,87.0
+User2,2026-06-15,W3Schools,Google Sheets,1,110.0
+User2,2026-06-15,Google Sheets,LeetCode,1,10.0
+User2,2026-06-15,LeetCode,LeetCode,1,119.0
+User2,2026-06-16,Overleaf,News18,1,117.0
+User2,2026-06-16,News18,Microsoft Teams,1,95.0
+User2,2026-06-16,Microsoft Teams,Google Sheets,1,95.0
+User2,2026-06-16,Google Sheets,YouTube,1,80.0
+User2,2026-06-16,YouTube,Netflix,1,56.0
+User2,2026-06-16,Netflix,Jira,1,7.0
+User2,2026-06-16,Jira,Notion,1,7.0
+User2,2026-06-16,Notion,Notion,1,35.0
+User2,2026-06-16,Notion,Prime Video,1,9.0
+User2,2026-06-16,Prime Video,Microsoft Teams,1,110.0
+User2,2026-06-16,Microsoft Teams,Snapchat,1,35.0
+User2,2026-06-16,Snapchat,GitHub,1,72.0
+User2,2026-06-16,GitHub,Twitter/X,1,104.0
+User2,2026-06-17,Google Docs,Slack,1,58.0
+User2,2026-06-17,Slack,GeeksforGeeks,1,58.0
+User2,2026-06-17,GeeksforGeeks,Google Docs,1,30.0
+User2,2026-06-17,Google Docs,VS Code,1,25.0
+User2,2026-06-17,VS Code,LinkedIn Learning,1,36.0
+User2,2026-06-17,LinkedIn Learning,GitHub,1,15.0
+User2,2026-06-18,Jira,Jira,1,45.0
+User2,2026-06-18,Jira,Notion,1,23.0
+User2,2026-06-18,Notion,Reddit,1,11.0
+User2,2026-06-18,Reddit,Microsoft Teams,1,20.0
+User2,2026-06-18,Microsoft Teams,Twitter/X,1,82.0
+User2,2026-06-18,Twitter/X,Slack,1,51.0
+User2,2026-06-18,Slack,Trello,1,113.0
+User2,2026-06-18,Trello,LinkedIn Learning,1,57.0
+User2,2026-06-18,LinkedIn Learning,PUBG Mobile,1,63.0
+User2,2026-06-18,PUBG Mobile,Notion,1,74.0
+User2,2026-06-19,LeetCode,TikTok,1,58.0
+User2,2026-06-19,TikTok,Zoom,1,87.0
+User2,2026-06-19,Zoom,Udemy,1,23.0
+User2,2026-06-19,Udemy,ChatGPT,1,5.0
+User2,2026-06-19,ChatGPT,Udemy,1,88.0
+User2,2026-06-19,Udemy,Trello,1,70.0
+User2,2026-06-19,Trello,Prime Video,1,16.0
+User2,2026-06-19,Prime Video,Claude,1,6.0
+User2,2026-06-19,Claude,Pinterest,1,30.0
+User2,2026-06-19,Pinterest,News18,1,68.0
+User2,2026-06-20,Twitter/X,Amazon,1,5.0
+User2,2026-06-20,Amazon,LinkedIn Learning,1,95.0
+User2,2026-06-20,LinkedIn Learning,Facebook,1,110.0
+User2,2026-06-20,Facebook,GeeksforGeeks,1,108.0
+User2,2026-06-20,GeeksforGeeks,News18,1,81.0
+User2,2026-06-20,News18,Google Meet,1,23.0
+User2,2026-06-20,Google Meet,ChatGPT,1,70.0
+User2,2026-06-20,ChatGPT,LinkedIn Learning,1,38.0
+User2,2026-06-20,LinkedIn Learning,Zoom,1,58.0
+User2,2026-06-20,Zoom,PUBG Mobile,1,65.0
+User2,2026-06-21,Instagram,Coursera,1,58.0
+User2,2026-06-21,Coursera,Postgres pgAdmin,1,58.0
+User2,2026-06-21,Postgres pgAdmin,Snapchat,1,28.0
+User2,2026-06-21,Snapchat,WhatsApp Web,1,24.0
+User2,2026-06-21,WhatsApp Web,LeetCode,1,39.0
+User2,2026-06-21,LeetCode,Pinterest,1,86.0
+User2,2026-06-21,Pinterest,Spotify,1,99.0
+User2,2026-06-21,Spotify,Slack,1,96.0
+User2,2026-06-21,Slack,GitLab,1,23.0
+User2,2026-06-21,GitLab,Microsoft Teams,1,44.0
+User2,2026-06-22,Facebook,Trello,1,70.0
+User2,2026-06-22,Trello,Google Docs,1,59.0
+User2,2026-06-22,Google Docs,Jupyter Notebook,1,38.0
+User2,2026-06-22,Jupyter Notebook,News18,1,106.0
+User2,2026-06-22,News18,W3Schools,1,101.0
+User2,2026-06-22,W3Schools,Jupyter Notebook,1,64.0
+User2,2026-06-22,Jupyter Notebook,Instagram,1,106.0
+User2,2026-06-22,Instagram,CodeChef,1,120.0
+User2,2026-06-22,CodeChef,VS Code,1,106.0
+User2,2026-06-22,VS Code,Instagram,1,40.0
+User2,2026-06-22,Instagram,LinkedIn Learning,1,103.0
+User2,2026-06-22,LinkedIn Learning,GeeksforGeeks,1,6.0
+User2,2026-06-22,GeeksforGeeks,Udemy,1,29.0
+User2,2026-06-22,Udemy,Facebook,1,41.0
+User2,2026-06-22,Facebook,Claude,1,16.0
+User2,2026-06-23,TikTok,LinkedIn Learning,1,112.0
+User2,2026-06-23,LinkedIn Learning,Trello,1,84.0
+User2,2026-06-23,Trello,LinkedIn Learning,1,102.0
+User2,2026-06-23,LinkedIn Learning,Overleaf,1,78.0
+User2,2026-06-23,Overleaf,HackerRank,1,85.0
+User2,2026-06-24,Pinterest,Netflix,1,14.0
+User2,2026-06-24,Netflix,Postgres pgAdmin,1,32.0
+User2,2026-06-24,Postgres pgAdmin,Jupyter Notebook,1,99.0
+User2,2026-06-24,Jupyter Notebook,Postgres pgAdmin,1,115.0
+User2,2026-06-24,Postgres pgAdmin,Claude,1,5.0
+User2,2026-06-24,Claude,Amazon,1,100.0
+User2,2026-06-24,Amazon,Pinterest,1,80.0
+User2,2026-06-24,Pinterest,LeetCode,1,48.0
+User2,2026-06-24,LeetCode,Notion,1,62.0
+User2,2026-06-24,Notion,Stack Overflow,1,44.0
+User2,2026-06-24,Stack Overflow,Twitter/X,1,14.0
+User2,2026-06-24,Twitter/X,Claude,1,36.0
+User2,2026-06-25,Slack,Spotify,1,8.0
+User2,2026-06-25,Spotify,Jupyter Notebook,1,10.0
+User2,2026-06-25,Jupyter Notebook,Zoom,1,64.0
+User2,2026-06-25,Zoom,LinkedIn Learning,1,29.0
+User2,2026-06-25,LinkedIn Learning,Google Meet,1,59.0
+User2,2026-06-25,Google Meet,Prime Video,1,112.0
+User2,2026-06-25,Prime Video,Twitter/X,1,85.0
+User2,2026-06-25,Twitter/X,Reddit,1,34.0
+User2,2026-06-25,Reddit,Zoom,1,74.0
+User2,2026-06-25,Zoom,Prime Video,1,46.0
+User2,2026-06-25,Prime Video,Overleaf,1,75.0
+User2,2026-06-26,HackerRank,GitHub,1,21.0
+User2,2026-06-26,GitHub,Coursera,1,13.0
+User2,2026-06-26,Coursera,Coursera,1,21.0
+User2,2026-06-26,Coursera,VS Code,1,72.0
+User2,2026-06-26,VS Code,ChatGPT,1,110.0
+User2,2026-06-26,ChatGPT,Trello,1,79.0
+User2,2026-06-26,Trello,HackerRank,1,24.0
+User2,2026-06-27,VS Code,LinkedIn Learning,1,79.0
+User2,2026-06-27,LinkedIn Learning,Coursera,1,99.0
+User2,2026-06-27,Coursera,GeeksforGeeks,1,97.0
+User2,2026-06-27,GeeksforGeeks,Hotstar,1,4.0
+User2,2026-06-27,Hotstar,Facebook,1,107.0
+User2,2026-06-27,Facebook,Zoom,1,49.0
+User2,2026-06-27,Zoom,Postgres pgAdmin,1,20.0
+User2,2026-06-28,Twitter/X,Trello,1,4.0
+User2,2026-06-28,Trello,Slack,1,9.0
+User2,2026-06-28,Slack,Postgres pgAdmin,1,78.0
+User2,2026-06-28,Postgres pgAdmin,Facebook,1,71.0
+User2,2026-06-28,Facebook,VS Code,1,115.0
+User2,2026-06-28,VS Code,Hotstar,1,101.0
+User2,2026-06-28,Hotstar,Postgres pgAdmin,1,33.0
+User2,2026-06-28,Postgres pgAdmin,News18,1,69.0
+User2,2026-06-28,News18,WhatsApp Web,1,71.0
+User2,2026-06-29,Amazon,Snapchat,1,11.0
+User2,2026-06-29,Snapchat,Hotstar,1,61.0
+User2,2026-06-29,Hotstar,Google Docs,1,95.0
+User2,2026-06-29,Google Docs,News18,1,93.0
+User2,2026-06-29,News18,Notion,1,111.0
+User2,2026-06-29,Notion,Spotify,1,39.0
+User2,2026-06-29,Spotify,ChatGPT,1,3.0
+User2,2026-06-29,ChatGPT,Snapchat,1,12.0
+User2,2026-06-30,Instagram,YouTube,1,72.0
+User2,2026-06-30,YouTube,Trello,1,86.0
+User2,2026-06-30,Trello,Jupyter Notebook,1,69.0
+User2,2026-06-30,Jupyter Notebook,CodeChef,1,108.0
+User2,2026-06-30,CodeChef,Pinterest,1,46.0
+User2,2026-06-30,Pinterest,Coursera,1,92.0
+User2,2026-06-30,Coursera,Claude,1,5.0
+User2,2026-06-30,Claude,Trello,1,101.0
+User2,2026-07-01,Flipkart,Hotstar,1,36.0
+User2,2026-07-01,Hotstar,LinkedIn Learning,1,39.0
+User2,2026-07-01,LinkedIn Learning,Zoom,1,105.0
+User2,2026-07-01,Zoom,YouTube,1,80.0
+User2,2026-07-01,YouTube,GitLab,1,103.0
+User2,2026-07-01,GitLab,ChatGPT,1,16.0
+User2,2026-07-01,ChatGPT,News18,1,2.0
+User2,2026-07-01,News18,Slack,1,74.0
+User2,2026-07-01,Slack,GeeksforGeeks,1,39.0
+User2,2026-07-01,GeeksforGeeks,Coursera,1,5.0
+User2,2026-07-01,Coursera,Flipkart,1,19.0
+User2,2026-07-01,Flipkart,LinkedIn Learning,1,56.0
+User2,2026-07-01,LinkedIn Learning,GitHub,1,55.0
+User2,2026-07-01,GitHub,LinkedIn Learning,1,107.0
+User2,2026-07-02,Google Docs,Facebook,1,93.0
+User2,2026-07-02,Facebook,News18,1,39.0
+User2,2026-07-02,News18,Microsoft Teams,1,118.0
+User2,2026-07-02,Microsoft Teams,Zoom,1,68.0
+User2,2026-07-02,Zoom,Google Docs,1,77.0
+User2,2026-07-02,Google Docs,Instagram,1,72.0
+User2,2026-07-02,Instagram,Hotstar,1,95.0
+User2,2026-07-02,Hotstar,Reddit,1,27.0
+User2,2026-07-02,Reddit,Notion,1,72.0
+User2,2026-07-02,Notion,LinkedIn Learning,1,21.0
+User2,2026-07-02,LinkedIn Learning,Pinterest,1,94.0
+User2,2026-07-02,Pinterest,Spotify,1,74.0
+User2,2026-07-02,Spotify,HackerRank,1,84.0
+User2,2026-07-02,HackerRank,Microsoft Teams,1,120.0
+User2,2026-07-02,Microsoft Teams,Prime Video,1,57.0
+User2,2026-07-02,Prime Video,Instagram,1,70.0
+User2,2026-07-02,Instagram,HackerRank,1,72.0
+User2,2026-07-02,HackerRank,Coursera,1,32.0
+User2,2026-07-02,Coursera,VS Code,1,80.0
+User2,2026-07-02,VS Code,Overleaf,1,59.0
+User2,2026-07-03,Snapchat,Prime Video,1,115.0
+User2,2026-07-03,Prime Video,Coursera,1,6.0
+User2,2026-07-03,Coursera,YouTube,1,10.0
+User2,2026-07-03,YouTube,Flipkart,1,15.0
+User2,2026-07-03,Flipkart,Spotify,1,85.0
+User2,2026-07-03,Spotify,GitLab,1,86.0
+User2,2026-07-03,GitLab,Jira,1,53.0
+User2,2026-07-03,Jira,Facebook,1,64.0
+User2,2026-07-03,Facebook,PUBG Mobile,1,7.0
+User2,2026-07-03,PUBG Mobile,Facebook,1,105.0
+User2,2026-07-03,Facebook,Netflix,1,25.0
+User2,2026-07-03,Netflix,Google Sheets,1,25.0
+User2,2026-07-03,Google Sheets,Stack Overflow,1,8.0
+User2,2026-07-03,Stack Overflow,Microsoft Teams,1,13.0
+User2,2026-07-03,Microsoft Teams,Jira,1,56.0
+User2,2026-07-03,Jira,Jupyter Notebook,1,73.0
+User2,2026-07-04,Flipkart,GitHub,1,69.0
+User2,2026-07-04,GitHub,TikTok,1,83.0
+User2,2026-07-04,TikTok,Facebook,1,25.0
+User2,2026-07-04,Facebook,Hotstar,1,100.0
+User2,2026-07-04,Hotstar,ChatGPT,1,90.0
+User2,2026-07-04,ChatGPT,Reddit,1,109.0
+User2,2026-07-04,Reddit,W3Schools,1,49.0
+User2,2026-07-04,W3Schools,PUBG Mobile,1,74.0
+User2,2026-07-05,Amazon,GeeksforGeeks,1,25.0
+User2,2026-07-05,GeeksforGeeks,W3Schools,1,113.0
+User2,2026-07-06,GitLab,Coursera,1,37.0
+User2,2026-07-06,Coursera,Coursera,1,35.0
+User2,2026-07-06,Coursera,GitHub,1,11.0
+User2,2026-07-06,GitHub,Snapchat,1,88.0
+User2,2026-07-06,Snapchat,Claude,1,33.0
+User2,2026-07-06,Claude,Microsoft Teams,1,13.0
+User2,2026-07-06,Microsoft Teams,TikTok,1,74.0
+User2,2026-07-06,TikTok,Pinterest,1,72.0
+User2,2026-07-06,Pinterest,YouTube,1,63.0
+User2,2026-07-06,YouTube,Google Meet,1,61.0
+User2,2026-07-06,Google Meet,Snapchat,1,89.0
+User2,2026-07-07,Overleaf,Amazon,1,13.0
+User2,2026-07-07,Amazon,Prime Video,1,7.0
+User2,2026-07-07,Prime Video,Twitter/X,1,58.0
+User2,2026-07-07,Twitter/X,Netflix,1,9.0
+User2,2026-07-07,Netflix,Reddit,1,119.0
+User2,2026-07-07,Reddit,HackerRank,1,50.0
+User2,2026-07-07,HackerRank,VS Code,1,101.0
+User2,2026-07-07,VS Code,Facebook,1,58.0
+User2,2026-07-07,Facebook,Google Sheets,1,101.0
+User2,2026-07-07,Google Sheets,GeeksforGeeks,1,17.0
+User2,2026-07-08,Twitter/X,GitHub,1,115.0
+User2,2026-07-08,GitHub,Amazon,1,19.0
+User2,2026-07-08,Amazon,Prime Video,1,76.0
+User2,2026-07-08,Prime Video,YouTube,1,73.0
+User2,2026-07-08,YouTube,Zoom,1,80.0
+User2,2026-07-08,Zoom,Microsoft Teams,1,97.0
+User2,2026-07-08,Microsoft Teams,Instagram,1,54.0
+User2,2026-07-08,Instagram,Google Docs,1,42.0
+User2,2026-07-08,Google Docs,TikTok,1,41.0
+User2,2026-07-08,TikTok,Snapchat,1,71.0
+User2,2026-07-08,Snapchat,Jira,1,2.0
+User2,2026-07-08,Jira,News18,1,103.0
+User2,2026-07-08,News18,Twitter/X,1,27.0
+User2,2026-07-09,Twitter/X,Pinterest,1,95.0
+User2,2026-07-09,Pinterest,Google Docs,1,116.0
+User2,2026-07-09,Google Docs,Udemy,1,34.0
+User2,2026-07-09,Udemy,Prime Video,1,93.0
+User2,2026-07-09,Prime Video,Notion,1,8.0
+User2,2026-07-09,Notion,CodeChef,1,76.0
+User2,2026-07-09,CodeChef,Notion,1,43.0
+User2,2026-07-09,Notion,News18,1,49.0
+User2,2026-07-09,News18,Flipkart,1,105.0
+User2,2026-07-09,Flipkart,TikTok,1,43.0
+User2,2026-07-10,Slack,News18,1,97.0
+User2,2026-07-10,News18,WhatsApp Web,1,110.0
+User2,2026-07-10,WhatsApp Web,Candy Crush,1,88.0
+User2,2026-07-10,Candy Crush,Coursera,1,38.0
+User2,2026-07-10,Coursera,Trello,1,43.0
+User2,2026-07-10,Trello,ChatGPT,1,82.0
+User2,2026-07-10,ChatGPT,Twitter/X,1,32.0
+User2,2026-07-10,Twitter/X,Instagram,1,42.0
+User2,2026-07-10,Instagram,PUBG Mobile,1,109.0
+User2,2026-07-10,PUBG Mobile,Hotstar,1,100.0
+User2,2026-07-10,Hotstar,Flipkart,1,92.0
+User2,2026-07-10,Flipkart,Reddit,1,33.0
+User2,2026-07-10,Reddit,Trello,1,98.0
+User2,2026-07-10,Trello,Microsoft Teams,1,69.0
+User2,2026-07-10,Microsoft Teams,Overleaf,1,58.0
+User2,2026-07-11,Candy Crush,Hotstar,1,103.0
+User2,2026-07-11,Hotstar,Reddit,1,50.0
+User2,2026-07-11,Reddit,Overleaf,1,15.0
+User2,2026-07-11,Overleaf,Pinterest,1,111.0
+User2,2026-07-11,Pinterest,Coursera,1,51.0
+User2,2026-07-11,Coursera,Google Meet,1,71.0
+User2,2026-07-11,Google Meet,Spotify,1,91.0
+User2,2026-07-12,News18,W3Schools,1,72.0
+User2,2026-07-12,W3Schools,LinkedIn Learning,1,59.0
+User2,2026-07-12,LinkedIn Learning,Netflix,1,114.0
+User2,2026-07-12,Netflix,Coursera,1,40.0
+User2,2026-07-12,Coursera,GitLab,1,37.0
+User2,2026-07-12,GitLab,LeetCode,1,34.0
+User2,2026-07-12,LeetCode,Stack Overflow,1,24.0
+User2,2026-07-12,Stack Overflow,Google Meet,1,60.0
+User2,2026-07-12,Google Meet,Instagram,1,37.0
+User2,2026-07-12,Instagram,News18,1,34.0
+User2,2026-07-13,Pinterest,Postgres pgAdmin,1,66.0
+User2,2026-07-13,Postgres pgAdmin,GeeksforGeeks,1,27.0
+User2,2026-07-13,GeeksforGeeks,HackerRank,1,118.0
+User2,2026-07-13,HackerRank,Snapchat,1,11.0
+User2,2026-07-13,Snapchat,WhatsApp Web,1,17.0
+User2,2026-07-13,WhatsApp Web,Claude,1,12.0
+User2,2026-07-13,Claude,Reddit,1,3.0
+User2,2026-07-13,Reddit,W3Schools,1,31.0
+User2,2026-07-13,W3Schools,Facebook,1,105.0
+User2,2026-07-13,Facebook,GeeksforGeeks,1,67.0
+User2,2026-07-13,GeeksforGeeks,YouTube,1,104.0
+User2,2026-07-14,Pinterest,Instagram,1,26.0
+User2,2026-07-14,Instagram,ChatGPT,1,81.0
+User2,2026-07-14,ChatGPT,LinkedIn Learning,1,46.0
+User2,2026-07-14,LinkedIn Learning,LinkedIn Learning,1,50.0
+User2,2026-07-14,LinkedIn Learning,Google Docs,1,35.0
+User2,2026-07-14,Google Docs,Overleaf,1,9.0
+User2,2026-07-14,Overleaf,Pinterest,1,97.0
+User2,2026-07-14,Pinterest,Udemy,1,92.0
+User2,2026-07-15,Overleaf,News18,1,71.0
+User2,2026-07-15,News18,Claude,1,86.0
+User2,2026-07-15,Claude,Candy Crush,1,9.0
+User2,2026-07-15,Candy Crush,PUBG Mobile,1,11.0
+User2,2026-07-15,PUBG Mobile,Snapchat,1,117.0
+User2,2026-07-15,Snapchat,Twitter/X,1,8.0
+User2,2026-07-15,Twitter/X,Jira,1,74.0
+User2,2026-07-15,Jira,CodeChef,1,6.75
+User2,2026-07-15,CodeChef,W3Schools,1,78.25
+User2,2026-07-15,W3Schools,WhatsApp Web,1,38.0
+User2,2026-07-15,WhatsApp Web,Facebook,1,14.0
+User2,2026-07-15,Facebook,W3Schools,1,23.75
+User2,2026-07-15,W3Schools,Candy Crush,1,38.0
+User3,2026-06-01,TikTok,VS Code,1,29.0
+User3,2026-06-01,VS Code,Jupyter Notebook,1,12.0
+User3,2026-06-01,Jupyter Notebook,Notion,1,59.0
+User3,2026-06-01,Notion,Jupyter Notebook,1,101.0
+User3,2026-06-01,Jupyter Notebook,Claude,1,107.0
+User3,2026-06-01,Claude,Jupyter Notebook,1,55.0
+User3,2026-06-01,Jupyter Notebook,Google Meet,1,78.0
+User3,2026-06-02,Trello,CodeChef,1,48.0
+User3,2026-06-02,CodeChef,Postgres pgAdmin,1,16.0
+User3,2026-06-02,Postgres pgAdmin,Candy Crush,1,11.0
+User3,2026-06-02,Candy Crush,Slack,1,14.0
+User3,2026-06-02,Slack,Claude,1,24.0
+User3,2026-06-02,Claude,Google Docs,1,55.0
+User3,2026-06-02,Google Docs,Claude,1,102.0
+User3,2026-06-02,Claude,Stack Overflow,1,2.0
+User3,2026-06-02,Stack Overflow,Flipkart,1,61.0
+User3,2026-06-02,Flipkart,Hotstar,1,92.0
+User3,2026-06-02,Hotstar,Jupyter Notebook,1,44.0
+User3,2026-06-02,Jupyter Notebook,LinkedIn Learning,1,10.0
+User3,2026-06-02,LinkedIn Learning,Jupyter Notebook,1,6.0
+User3,2026-06-03,Netflix,HackerRank,1,92.0
+User3,2026-06-03,HackerRank,Slack,1,73.0
+User3,2026-06-03,Slack,Zoom,1,39.0
+User3,2026-06-03,Zoom,Pinterest,1,115.0
+User3,2026-06-03,Pinterest,Snapchat,1,91.0
+User3,2026-06-03,Snapchat,Amazon,1,45.0
+User3,2026-06-03,Amazon,Reddit,1,113.0
+User3,2026-06-03,Reddit,Postgres pgAdmin,1,108.0
+User3,2026-06-03,Postgres pgAdmin,Google Meet,1,1.0
+User3,2026-06-03,Google Meet,Prime Video,1,10.0
+User3,2026-06-04,Google Docs,Notion,1,48.0
+User3,2026-06-04,Notion,Jupyter Notebook,1,54.0
+User3,2026-06-04,Jupyter Notebook,Netflix,1,40.0
+User3,2026-06-04,Netflix,Microsoft Teams,1,71.0
+User3,2026-06-04,Microsoft Teams,Stack Overflow,1,68.0
+User3,2026-06-04,Stack Overflow,Trello,1,48.0
+User3,2026-06-04,Trello,Google Docs,1,1.0
+User3,2026-06-04,Google Docs,VS Code,1,21.0
+User3,2026-06-04,VS Code,WhatsApp Web,1,67.0
+User3,2026-06-05,TikTok,GeeksforGeeks,1,65.0
+User3,2026-06-05,GeeksforGeeks,HackerRank,1,15.0
+User3,2026-06-05,HackerRank,Netflix,1,68.0
+User3,2026-06-05,Netflix,HackerRank,1,48.0
+User3,2026-06-05,HackerRank,Pinterest,1,49.0
+User3,2026-06-05,Pinterest,ChatGPT,1,38.0
+User3,2026-06-05,ChatGPT,TikTok,1,92.0
+User3,2026-06-06,Trello,Facebook,1,89.0
+User3,2026-06-06,Facebook,Twitter/X,1,49.0
+User3,2026-06-06,Twitter/X,Facebook,1,83.0
+User3,2026-06-06,Facebook,LinkedIn Learning,1,38.0
+User3,2026-06-07,YouTube,Hotstar,1,41.0
+User3,2026-06-07,Hotstar,Claude,1,112.0
+User3,2026-06-07,Claude,Trello,1,112.0
+User3,2026-06-07,Trello,GeeksforGeeks,1,47.0
+User3,2026-06-07,GeeksforGeeks,Microsoft Teams,1,47.0
+User3,2026-06-07,Microsoft Teams,Coursera,1,20.0
+User3,2026-06-07,Coursera,Jira,1,31.0
+User3,2026-06-07,Jira,GitLab,1,30.0
+User3,2026-06-07,GitLab,Spotify,1,33.0
+User3,2026-06-07,Spotify,GitHub,1,108.0
+User3,2026-06-07,GitHub,Google Sheets,1,102.0
+User3,2026-06-07,Google Sheets,Reddit,1,106.0
+User3,2026-06-07,Reddit,GitHub,1,93.0
+User3,2026-06-07,GitHub,LeetCode,1,104.0
+User3,2026-06-07,LeetCode,VS Code,1,46.0
+User3,2026-06-07,VS Code,Google Meet,1,7.0
+User3,2026-06-07,Google Meet,Google Docs,1,114.0
+User3,2026-06-08,CodeChef,Slack,1,119.0
+User3,2026-06-08,Slack,GitLab,1,119.0
+User3,2026-06-08,GitLab,GeeksforGeeks,1,18.0
+User3,2026-06-08,GeeksforGeeks,Candy Crush,1,82.0
+User3,2026-06-08,Candy Crush,Prime Video,1,32.0
+User3,2026-06-08,Prime Video,PUBG Mobile,1,25.0
+User3,2026-06-08,PUBG Mobile,Instagram,1,48.0
+User3,2026-06-08,Instagram,Amazon,1,53.0
+User3,2026-06-08,Amazon,Facebook,1,20.0
+User3,2026-06-08,Facebook,WhatsApp Web,1,108.0
+User3,2026-06-08,WhatsApp Web,WhatsApp Web,1,49.0
+User3,2026-06-09,Claude,GitHub,1,56.0
+User3,2026-06-09,GitHub,Slack,1,66.0
+User3,2026-06-09,Slack,VS Code,1,89.0
+User3,2026-06-09,VS Code,Overleaf,1,11.0
+User3,2026-06-09,Overleaf,Spotify,1,33.0
+User3,2026-06-09,Spotify,Jupyter Notebook,1,63.0
+User3,2026-06-09,Jupyter Notebook,Overleaf,1,66.0
+User3,2026-06-09,Overleaf,Facebook,1,86.0
+User3,2026-06-09,Facebook,Overleaf,1,62.0
+User3,2026-06-09,Overleaf,YouTube,1,77.0
+User3,2026-06-10,Claude,Microsoft Teams,1,71.0
+User3,2026-06-10,Microsoft Teams,Microsoft Teams,1,15.0
+User3,2026-06-10,Microsoft Teams,Snapchat,1,28.0
+User3,2026-06-10,Snapchat,GitLab,1,4.0
+User3,2026-06-10,GitLab,TikTok,1,84.0
+User3,2026-06-10,TikTok,Google Sheets,1,81.0
+User3,2026-06-10,Google Sheets,Google Sheets,1,95.0
+User3,2026-06-10,Google Sheets,Claude,1,64.0
+User3,2026-06-10,Claude,Postgres pgAdmin,1,2.0
+User3,2026-06-10,Postgres pgAdmin,Pinterest,1,81.0
+User3,2026-06-10,Pinterest,Jupyter Notebook,1,57.0
+User3,2026-06-10,Jupyter Notebook,Instagram,1,42.0
+User3,2026-06-11,News18,Jupyter Notebook,1,66.0
+User3,2026-06-11,Jupyter Notebook,Trello,1,42.0
+User3,2026-06-11,Trello,GeeksforGeeks,1,93.0
+User3,2026-06-11,GeeksforGeeks,Jira,1,6.0
+User3,2026-06-11,Jira,Postgres pgAdmin,1,79.0
+User3,2026-06-11,Postgres pgAdmin,Instagram,1,96.0
+User3,2026-06-11,Instagram,Slack,1,60.0
+User3,2026-06-11,Slack,Udemy,1,4.0
+User3,2026-06-11,Udemy,Candy Crush,1,49.0
+User3,2026-06-11,Candy Crush,GitLab,1,66.0
+User3,2026-06-11,GitLab,LeetCode,1,90.0
+User3,2026-06-11,LeetCode,Postgres pgAdmin,1,93.0
+User3,2026-06-11,Postgres pgAdmin,Trello,1,83.0
+User3,2026-06-11,Trello,Stack Overflow,1,39.0
+User3,2026-06-11,Stack Overflow,Jupyter Notebook,1,78.0
+User3,2026-06-12,Notion,LinkedIn Learning,1,110.0
+User3,2026-06-12,LinkedIn Learning,TikTok,1,91.0
+User3,2026-06-12,TikTok,YouTube,1,101.0
+User3,2026-06-12,YouTube,Coursera,1,41.0
+User3,2026-06-12,Coursera,Prime Video,1,65.0
+User3,2026-06-12,Prime Video,Jupyter Notebook,1,91.0
+User3,2026-06-12,Jupyter Notebook,Google Docs,1,85.0
+User3,2026-06-12,Google Docs,Snapchat,1,58.0
+User3,2026-06-12,Snapchat,YouTube,1,91.0
+User3,2026-06-12,YouTube,Google Docs,1,89.0
+User3,2026-06-12,Google Docs,LinkedIn Learning,1,104.0
+User3,2026-06-13,Microsoft Teams,Snapchat,1,31.0
+User3,2026-06-13,Snapchat,GitHub,1,77.0
+User3,2026-06-13,GitHub,Postgres pgAdmin,1,62.0
+User3,2026-06-13,Postgres pgAdmin,Candy Crush,1,55.0
+User3,2026-06-13,Candy Crush,Netflix,1,101.0
+User3,2026-06-13,Netflix,Google Meet,1,100.0
+User3,2026-06-13,Google Meet,YouTube,1,24.0
+User3,2026-06-14,Stack Overflow,Netflix,1,65.0
+User3,2026-06-14,Netflix,Snapchat,1,27.0
+User3,2026-06-14,Snapchat,Amazon,1,67.0
+User3,2026-06-14,Amazon,LeetCode,1,19.0
+User3,2026-06-14,LeetCode,Spotify,1,33.0
+User3,2026-06-14,Spotify,Jira,1,66.0
+User3,2026-06-14,Jira,Prime Video,1,68.0
+User3,2026-06-14,Prime Video,Postgres pgAdmin,1,23.0
+User3,2026-06-14,Postgres pgAdmin,PUBG Mobile,2,121.0
+User3,2026-06-14,PUBG Mobile,ChatGPT,1,86.0
+User3,2026-06-14,ChatGPT,Flipkart,1,59.0
+User3,2026-06-14,Flipkart,Coursera,1,115.0
+User3,2026-06-14,Coursera,Pinterest,1,10.0
+User3,2026-06-14,Pinterest,Postgres pgAdmin,1,15.0
+User3,2026-06-14,PUBG Mobile,WhatsApp Web,1,53.0
+User3,2026-06-15,WhatsApp Web,Zoom,1,3.0
+User3,2026-06-15,Zoom,Google Docs,1,89.0
+User3,2026-06-15,Google Docs,Postgres pgAdmin,1,13.0
+User3,2026-06-15,Postgres pgAdmin,GeeksforGeeks,1,38.0
+User3,2026-06-15,GeeksforGeeks,W3Schools,1,19.0
+User3,2026-06-15,W3Schools,Amazon,1,91.0
+User3,2026-06-15,Amazon,CodeChef,1,97.0
+User3,2026-06-15,CodeChef,TikTok,1,43.0
+User3,2026-06-15,TikTok,Google Docs,1,90.0
+User3,2026-06-15,Google Docs,Instagram,1,40.0
+User3,2026-06-15,Instagram,Amazon,1,117.0
+User3,2026-06-15,Amazon,LinkedIn Learning,1,34.0
+User3,2026-06-15,LinkedIn Learning,TikTok,1,11.0
+User3,2026-06-15,TikTok,Overleaf,1,17.0
+User3,2026-06-16,CodeChef,Amazon,1,82.0
+User3,2026-06-16,Amazon,GitLab,1,21.0
+User3,2026-06-16,GitLab,Claude,1,48.0
+User3,2026-06-16,Claude,Candy Crush,1,9.0
+User3,2026-06-16,Candy Crush,Stack Overflow,1,38.0
+User3,2026-06-16,Stack Overflow,Google Meet,1,39.0
+User3,2026-06-16,Google Meet,Facebook,1,10.0
+User3,2026-06-17,Coursera,GitLab,1,93.0
+User3,2026-06-17,GitLab,Postgres pgAdmin,1,6.0
+User3,2026-06-17,Postgres pgAdmin,CodeChef,1,118.0
+User3,2026-06-17,CodeChef,Flipkart,1,75.0
+User3,2026-06-17,Flipkart,Twitter/X,1,60.0
+User3,2026-06-17,Twitter/X,Facebook,1,39.0
+User3,2026-06-17,Facebook,Trello,1,72.0
+User3,2026-06-17,Trello,Snapchat,1,2.0
+User3,2026-06-17,Snapchat,Coursera,1,43.0
+User3,2026-06-17,Coursera,Flipkart,1,70.0
+User3,2026-06-17,Flipkart,Instagram,1,80.0
+User3,2026-06-17,Instagram,Hotstar,1,94.0
+User3,2026-06-17,Hotstar,Netflix,1,97.0
+User3,2026-06-18,W3Schools,PUBG Mobile,1,25.0
+User3,2026-06-18,PUBG Mobile,Spotify,1,69.0
+User3,2026-06-18,Spotify,Postgres pgAdmin,1,113.0
+User3,2026-06-18,Postgres pgAdmin,GitLab,1,79.0
+User3,2026-06-18,GitLab,Claude,1,54.0
+User3,2026-06-18,Claude,CodeChef,1,118.0
+User3,2026-06-18,CodeChef,Google Sheets,1,7.0
+User3,2026-06-19,Stack Overflow,Twitter/X,1,11.0
+User3,2026-06-19,Twitter/X,GitHub,1,82.0
+User3,2026-06-19,GitHub,Spotify,1,60.0
+User3,2026-06-19,Spotify,Overleaf,1,101.0
+User3,2026-06-19,Overleaf,Reddit,1,57.0
+User3,2026-06-19,Reddit,Jira,1,105.0
+User3,2026-06-19,Jira,Stack Overflow,1,118.0
+User3,2026-06-19,Stack Overflow,GeeksforGeeks,1,90.0
+User3,2026-06-19,GeeksforGeeks,CodeChef,1,108.0
+User3,2026-06-19,CodeChef,Microsoft Teams,1,49.0
+User3,2026-06-19,Microsoft Teams,VS Code,1,39.0
+User3,2026-06-19,VS Code,Reddit,1,33.0
+User3,2026-06-19,Reddit,TikTok,1,28.0
+User3,2026-06-20,Stack Overflow,Claude,1,31.0
+User3,2026-06-20,Claude,Claude,1,38.0
+User3,2026-06-20,Claude,TikTok,1,118.0
+User3,2026-06-20,TikTok,GitHub,1,21.0
+User3,2026-06-20,GitHub,News18,1,37.0
+User3,2026-06-20,News18,Flipkart,1,113.0
+User3,2026-06-20,Flipkart,Twitter/X,1,113.0
+User3,2026-06-20,Twitter/X,Coursera,1,113.0
+User3,2026-06-21,Notion,News18,1,15.0
+User3,2026-06-21,News18,HackerRank,1,51.0
+User3,2026-06-21,HackerRank,Candy Crush,1,88.0
+User3,2026-06-21,Candy Crush,GeeksforGeeks,1,35.0
+User3,2026-06-21,GeeksforGeeks,Slack,1,97.0
+User3,2026-06-21,Slack,Flipkart,1,68.0
+User3,2026-06-21,Flipkart,LinkedIn Learning,1,96.0
+User3,2026-06-21,LinkedIn Learning,Coursera,1,24.0
+User3,2026-06-21,Coursera,Trello,1,4.0
+User3,2026-06-21,Trello,Postgres pgAdmin,1,100.0
+User3,2026-06-21,Postgres pgAdmin,Flipkart,1,15.0
+User3,2026-06-21,Flipkart,News18,1,18.0
+User3,2026-06-22,CodeChef,Udemy,1,89.0
+User3,2026-06-22,Udemy,GitLab,1,61.0
+User3,2026-06-22,GitLab,Google Docs,1,79.0
+User3,2026-06-22,Google Docs,Jira,1,27.0
+User3,2026-06-22,Jira,Spotify,1,31.0
+User3,2026-06-22,Spotify,Jira,1,85.0
+User3,2026-06-22,Jira,Pinterest,1,20.0
+User3,2026-06-22,Pinterest,LeetCode,1,87.0
+User3,2026-06-22,LeetCode,Stack Overflow,1,120.0
+User3,2026-06-22,Stack Overflow,Netflix,1,95.0
+User3,2026-06-22,Netflix,PUBG Mobile,1,32.0
+User3,2026-06-23,TikTok,Amazon,1,85.0
+User3,2026-06-23,Amazon,GitHub,1,109.0
+User3,2026-06-23,GitHub,GitLab,1,94.0
+User3,2026-06-23,GitLab,News18,1,55.0
+User3,2026-06-23,News18,Prime Video,1,107.0
+User3,2026-06-23,Prime Video,Google Meet,1,23.0
+User3,2026-06-23,Google Meet,W3Schools,1,50.0
+User3,2026-06-24,Facebook,W3Schools,1,38.0
+User3,2026-06-24,W3Schools,Overleaf,1,66.0
+User3,2026-06-24,Overleaf,Zoom,1,88.0
+User3,2026-06-24,Zoom,Pinterest,1,67.0
+User3,2026-06-24,Pinterest,Prime Video,1,59.0
+User3,2026-06-24,Prime Video,Trello,1,44.0
+User3,2026-06-24,Trello,Postgres pgAdmin,1,70.0
+User3,2026-06-24,Postgres pgAdmin,Slack,1,41.0
+User3,2026-06-25,Amazon,Flipkart,1,88.0
+User3,2026-06-25,Flipkart,Google Docs,1,110.0
+User3,2026-06-25,Google Docs,Facebook,1,90.0
+User3,2026-06-25,Facebook,Spotify,1,72.0
+User3,2026-06-25,Spotify,Amazon,1,32.0
+User3,2026-06-26,Claude,Udemy,1,36.0
+User3,2026-06-26,Udemy,Jira,1,115.0
+User3,2026-06-26,Jira,Snapchat,1,76.0
+User3,2026-06-26,Snapchat,Reddit,1,103.0
+User3,2026-06-26,Reddit,Prime Video,1,51.0
+User3,2026-06-26,Prime Video,Slack,1,41.0
+User3,2026-06-26,Slack,GeeksforGeeks,1,1.0
+User3,2026-06-26,GeeksforGeeks,Trello,1,36.0
+User3,2026-06-26,Trello,Jira,1,104.0
+User3,2026-06-26,Jira,Overleaf,1,97.0
+User3,2026-06-26,Overleaf,GitLab,1,6.0
+User3,2026-06-27,Pinterest,Prime Video,1,26.0
+User3,2026-06-27,Prime Video,Stack Overflow,1,51.0
+User3,2026-06-27,Stack Overflow,TikTok,1,45.0
+User3,2026-06-27,TikTok,PUBG Mobile,1,10.0
+User3,2026-06-27,PUBG Mobile,YouTube,1,67.0
+User3,2026-06-27,YouTube,Pinterest,1,111.0
+User3,2026-06-27,Pinterest,LinkedIn Learning,1,74.0
+User3,2026-06-27,LinkedIn Learning,Amazon,1,94.0
+User3,2026-06-27,Amazon,Flipkart,1,20.0
+User3,2026-06-27,Flipkart,GitLab,1,79.0
+User3,2026-06-27,GitLab,Trello,1,117.0
+User3,2026-06-27,Trello,Udemy,1,100.0
+User3,2026-06-27,Udemy,Instagram,1,1.0
+User3,2026-06-27,Instagram,Jira,1,119.0
+User3,2026-06-27,Jira,Jira,1,43.0
+User3,2026-06-28,Trello,Stack Overflow,1,82.0
+User3,2026-06-28,Stack Overflow,Zoom,1,14.0
+User3,2026-06-28,Zoom,LinkedIn Learning,1,47.0
+User3,2026-06-28,LinkedIn Learning,Claude,1,57.0
+User3,2026-06-29,Flipkart,Candy Crush,1,117.0
+User3,2026-06-29,Candy Crush,Reddit,1,23.0
+User3,2026-06-29,Reddit,Google Docs,1,34.0
+User3,2026-06-29,Google Docs,Jira,1,43.0
+User3,2026-06-29,Jira,Stack Overflow,1,103.0
+User3,2026-06-29,Stack Overflow,VS Code,1,79.0
+User3,2026-06-29,VS Code,Postgres pgAdmin,1,50.0
+User3,2026-06-29,Postgres pgAdmin,HackerRank,1,84.0
+User3,2026-06-29,HackerRank,Stack Overflow,1,100.0
+User3,2026-06-30,Microsoft Teams,Snapchat,1,93.0
+User3,2026-06-30,Snapchat,Google Sheets,1,34.0
+User3,2026-06-30,Google Sheets,Claude,1,20.0
+User3,2026-06-30,Claude,TikTok,1,24.0
+User3,2026-06-30,TikTok,News18,1,1.0
+User3,2026-06-30,News18,Instagram,1,48.0
+User3,2026-06-30,Instagram,W3Schools,1,96.0
+User3,2026-06-30,W3Schools,Facebook,1,116.0
+User3,2026-06-30,Facebook,Reddit,1,112.0
+User3,2026-06-30,Reddit,Reddit,1,101.0
+User3,2026-07-01,LeetCode,Notion,1,34.0
+User3,2026-07-01,Notion,Google Docs,1,78.0
+User3,2026-07-01,Google Docs,Amazon,1,29.0
+User3,2026-07-01,Amazon,GitLab,1,47.0
+User3,2026-07-01,GitLab,GitHub,1,99.0
+User3,2026-07-01,GitHub,Zoom,1,99.0
+User3,2026-07-01,Zoom,ChatGPT,1,72.0
+User3,2026-07-01,ChatGPT,Slack,1,94.0
+User3,2026-07-01,Slack,HackerRank,1,65.0
+User3,2026-07-01,HackerRank,GeeksforGeeks,1,49.0
+User3,2026-07-01,GeeksforGeeks,GitLab,1,112.0
+User3,2026-07-02,Instagram,Spotify,1,110.0
+User3,2026-07-02,Spotify,Jira,1,31.0
+User3,2026-07-02,Jira,Microsoft Teams,1,96.0
+User3,2026-07-02,Microsoft Teams,Google Meet,1,81.0
+User3,2026-07-02,Google Meet,Flipkart,1,120.0
+User3,2026-07-02,Flipkart,Prime Video,1,11.0
+User3,2026-07-02,Prime Video,Facebook,1,3.0
+User3,2026-07-02,Facebook,Notion,1,89.0
+User3,2026-07-02,Notion,Jira,1,60.0
+User3,2026-07-02,Jira,Netflix,1,54.0
+User3,2026-07-02,Netflix,Coursera,1,89.0
+User3,2026-07-02,Coursera,WhatsApp Web,1,48.0
+User3,2026-07-02,WhatsApp Web,Udemy,1,101.0
+User3,2026-07-02,Udemy,CodeChef,1,23.0
+User3,2026-07-02,CodeChef,Jira,1,95.0
+User3,2026-07-02,Jira,Snapchat,1,51.0
+User3,2026-07-02,Snapchat,TikTok,1,58.0
+User3,2026-07-02,TikTok,Twitter/X,1,10.0
+User3,2026-07-03,Twitter/X,Notion,1,22.0
+User3,2026-07-03,Notion,Hotstar,1,116.0
+User3,2026-07-03,Hotstar,Prime Video,1,1.0
+User3,2026-07-03,Prime Video,News18,1,62.0
+User3,2026-07-03,News18,Facebook,1,68.0
+User3,2026-07-03,Facebook,Hotstar,1,18.0
+User3,2026-07-03,Hotstar,Reddit,1,98.0
+User3,2026-07-04,Flipkart,News18,1,86.0
+User3,2026-07-04,News18,CodeChef,1,25.0
+User3,2026-07-04,CodeChef,TikTok,1,5.0
+User3,2026-07-04,TikTok,Candy Crush,1,46.0
+User3,2026-07-04,Candy Crush,Twitter/X,1,23.0
+User3,2026-07-04,Twitter/X,Zoom,1,95.0
+User3,2026-07-04,Zoom,VS Code,1,61.0
+User3,2026-07-05,YouTube,TikTok,1,97.0
+User3,2026-07-05,TikTok,Udemy,1,20.0
+User3,2026-07-05,Udemy,Udemy,2,103.0
+User3,2026-07-05,Udemy,Jupyter Notebook,1,39.0
+User3,2026-07-05,Jupyter Notebook,VS Code,1,109.0
+User3,2026-07-05,VS Code,Google Sheets,1,63.0
+User3,2026-07-05,Google Sheets,Coursera,1,14.0
+User3,2026-07-06,Overleaf,TikTok,1,110.0
+User3,2026-07-06,TikTok,Claude,1,50.0
+User3,2026-07-06,Claude,HackerRank,1,20.0
+User3,2026-07-06,HackerRank,YouTube,1,32.0
+User3,2026-07-06,YouTube,GitHub,1,75.0
+User3,2026-07-06,GitHub,LeetCode,1,50.0
+User3,2026-07-06,LeetCode,Slack,1,112.0
+User3,2026-07-06,Slack,Reddit,1,74.0
+User3,2026-07-06,Reddit,Claude,1,78.0
+User3,2026-07-06,Claude,Facebook,1,6.0
+User3,2026-07-06,Facebook,YouTube,1,115.0
+User3,2026-07-07,Jupyter Notebook,Claude,1,67.0
+User3,2026-07-07,Claude,Google Docs,1,110.0
+User3,2026-07-07,Google Docs,Udemy,1,115.0
+User3,2026-07-07,Udemy,PUBG Mobile,1,82.0
+User3,2026-07-07,PUBG Mobile,Twitter/X,1,34.0
+User3,2026-07-07,Twitter/X,Microsoft Teams,1,107.0
+User3,2026-07-07,Microsoft Teams,Udemy,1,22.0
+User3,2026-07-07,Udemy,Netflix,1,54.0
+User3,2026-07-07,Netflix,Postgres pgAdmin,1,104.0
+User3,2026-07-07,Postgres pgAdmin,Zoom,1,72.0
+User3,2026-07-07,Zoom,Jira,1,108.0
+User3,2026-07-07,Jira,GitLab,1,88.0
+User3,2026-07-07,GitLab,Slack,1,51.0
+User3,2026-07-08,WhatsApp Web,ChatGPT,1,90.0
+User3,2026-07-08,ChatGPT,Google Sheets,1,14.0
+User3,2026-07-08,Google Sheets,Stack Overflow,1,18.0
+User3,2026-07-08,Stack Overflow,Google Meet,1,65.0
+User3,2026-07-08,Google Meet,VS Code,1,9.0
+User3,2026-07-08,VS Code,Microsoft Teams,1,21.0
+User3,2026-07-08,Microsoft Teams,Jira,1,107.0
+User3,2026-07-08,Jira,W3Schools,1,114.0
+User3,2026-07-08,W3Schools,Microsoft Teams,1,106.0
+User3,2026-07-08,Microsoft Teams,Coursera,1,105.0
+User3,2026-07-08,Coursera,VS Code,1,86.0
+User3,2026-07-08,VS Code,HackerRank,1,44.0
+User3,2026-07-08,HackerRank,WhatsApp Web,1,28.0
+User3,2026-07-09,Udemy,Facebook,1,19.0
+User3,2026-07-09,Facebook,Stack Overflow,1,85.0
+User3,2026-07-09,Stack Overflow,W3Schools,1,37.0
+User3,2026-07-09,W3Schools,Instagram,1,112.0
+User3,2026-07-09,Instagram,Snapchat,1,29.0
+User3,2026-07-09,Snapchat,Amazon,1,88.0
+User3,2026-07-10,Claude,Zoom,1,66.0
+User3,2026-07-10,Zoom,Pinterest,1,9.0
+User3,2026-07-10,Pinterest,Trello,1,109.0
+User3,2026-07-10,Trello,Google Sheets,1,71.0
+User3,2026-07-10,Google Sheets,W3Schools,1,6.0
+User3,2026-07-10,W3Schools,YouTube,1,11.0
+User3,2026-07-10,YouTube,W3Schools,1,41.0
+User3,2026-07-10,W3Schools,Facebook,1,40.0
+User3,2026-07-10,Facebook,GeeksforGeeks,1,52.0
+User3,2026-07-10,GeeksforGeeks,Flipkart,1,68.0
+User3,2026-07-11,Flipkart,Flipkart,1,27.0
+User3,2026-07-11,Flipkart,GeeksforGeeks,1,33.0
+User3,2026-07-11,GeeksforGeeks,Zoom,1,2.0
+User3,2026-07-11,Zoom,Postgres pgAdmin,1,102.0
+User3,2026-07-11,Postgres pgAdmin,LeetCode,1,27.0
+User3,2026-07-11,LeetCode,Coursera,1,72.0
+User3,2026-07-11,Coursera,Facebook,1,87.0
+User3,2026-07-12,Amazon,Microsoft Teams,1,22.0
+User3,2026-07-12,Microsoft Teams,GitHub,1,105.0
+User3,2026-07-12,GitHub,HackerRank,1,91.0
+User3,2026-07-12,HackerRank,GitHub,1,27.0
+User3,2026-07-12,GitHub,Hotstar,1,57.0
+User3,2026-07-12,Hotstar,LinkedIn Learning,1,72.0
+User3,2026-07-12,LinkedIn Learning,Pinterest,1,93.0
+User3,2026-07-12,Pinterest,Notion,1,6.0
+User3,2026-07-12,Notion,Google Meet,1,78.0
+User3,2026-07-12,Google Meet,Netflix,1,96.0
+User3,2026-07-12,Netflix,GeeksforGeeks,1,119.0
+User3,2026-07-13,VS Code,News18,1,113.0
+User3,2026-07-13,News18,Jupyter Notebook,1,66.0
+User3,2026-07-13,Jupyter Notebook,GitHub,1,31.0
+User3,2026-07-13,GitHub,Zoom,1,27.0
+User3,2026-07-13,Zoom,Stack Overflow,1,23.0
+User3,2026-07-13,Stack Overflow,Spotify,1,12.0
+User3,2026-07-13,Spotify,Postgres pgAdmin,1,104.0
+User3,2026-07-13,Postgres pgAdmin,Slack,1,65.0
+User3,2026-07-13,Slack,HackerRank,1,49.0
+User3,2026-07-13,HackerRank,Facebook,1,24.0
+User3,2026-07-13,Facebook,Reddit,1,100.0
+User3,2026-07-14,WhatsApp Web,LeetCode,1,94.0
+User3,2026-07-14,LeetCode,Twitter/X,1,113.0
+User3,2026-07-14,Twitter/X,Trello,1,70.0
+User3,2026-07-14,Trello,Stack Overflow,1,106.0
+User3,2026-07-14,Stack Overflow,Facebook,1,29.0
+User3,2026-07-14,Facebook,Notion,1,78.0
+User3,2026-07-14,Notion,Twitter/X,1,27.0
+User3,2026-07-14,Twitter/X,Spotify,1,115.0
+User3,2026-07-14,Spotify,News18,1,16.0
+User3,2026-07-14,News18,Prime Video,1,92.0
+User3,2026-07-14,Prime Video,Coursera,1,57.0
+User3,2026-07-14,Coursera,LinkedIn Learning,1,6.0
+User3,2026-07-14,LinkedIn Learning,GitLab,1,103.0
+User3,2026-07-14,GitLab,Zoom,1,29.0
+User3,2026-07-14,Zoom,YouTube,1,108.0
+User3,2026-07-14,YouTube,Jira,1,29.0
+User3,2026-07-14,Jira,Overleaf,1,43.0
+User3,2026-07-15,GeeksforGeeks,Jupyter Notebook,1,112.0
+User3,2026-07-15,Jupyter Notebook,Amazon,1,28.0
+User3,2026-07-15,Amazon,Netflix,1,10.0
+User3,2026-07-15,Netflix,Netflix,1,18.0
+User3,2026-07-15,Netflix,HackerRank,1,57.0
+User3,2026-07-15,HackerRank,Netflix,1,57.0
+User3,2026-07-15,Netflix,LeetCode,1,93.0
+User3,2026-07-15,LeetCode,Jupyter Notebook,1,58.0
+User3,2026-07-15,Jupyter Notebook,Prime Video,1,77.0
+User3,2026-07-15,Prime Video,Notion,1,14.0
+User3,2026-07-15,Notion,Jira,1,41.0
+User3,2026-07-15,Jira,Coursera,1,94.75
+User3,2026-07-15,Coursera,Zoom,1,2.0
+User3,2026-07-15,Zoom,Netflix,1,31.0
+User3,2026-07-15,Netflix,Google Sheets,1,80.0
+User3,2026-07-15,Google Sheets,Google Sheets,1,16.0
+User4,2026-06-01,Google Sheets,Instagram,1,20.0
+User4,2026-06-01,Instagram,Spotify,1,47.0
+User4,2026-06-01,Spotify,Notion,1,43.0
+User4,2026-06-01,Notion,LinkedIn Learning,1,118.0
+User4,2026-06-01,LinkedIn Learning,GitLab,1,73.0
+User4,2026-06-01,GitLab,Netflix,1,4.0
+User4,2026-06-01,Netflix,Udemy,1,33.0
+User4,2026-06-01,Udemy,Google Meet,1,92.0
+User4,2026-06-01,Google Meet,Microsoft Teams,1,102.0
+User4,2026-06-01,Microsoft Teams,Amazon,1,7.0
+User4,2026-06-01,Amazon,Amazon,1,84.0
+User4,2026-06-01,Amazon,PUBG Mobile,1,29.0
+User4,2026-06-02,Amazon,Claude,1,99.0
+User4,2026-06-02,Claude,Hotstar,1,114.0
+User4,2026-06-02,Hotstar,Amazon,1,74.0
+User4,2026-06-02,Amazon,Amazon,1,103.0
+User4,2026-06-02,Amazon,Trello,1,83.0
+User4,2026-06-02,Trello,Flipkart,1,91.0
+User4,2026-06-02,Flipkart,Coursera,1,79.0
+User4,2026-06-03,Facebook,GitHub,1,101.0
+User4,2026-06-03,GitHub,Instagram,1,31.0
+User4,2026-06-03,Instagram,Coursera,1,63.0
+User4,2026-06-03,Coursera,LeetCode,1,44.0
+User4,2026-06-03,LeetCode,Zoom,1,118.0
+User4,2026-06-03,Zoom,Slack,1,102.0
+User4,2026-06-03,Slack,Flipkart,1,45.0
+User4,2026-06-03,Flipkart,Google Docs,1,54.0
+User4,2026-06-04,Notion,Facebook,1,35.0
+User4,2026-06-04,Facebook,YouTube,1,84.0
+User4,2026-06-04,YouTube,W3Schools,1,69.0
+User4,2026-06-04,W3Schools,Pinterest,1,84.0
+User4,2026-06-04,Pinterest,LeetCode,1,32.0
+User4,2026-06-04,LeetCode,LinkedIn Learning,1,102.0
+User4,2026-06-04,LinkedIn Learning,Hotstar,1,83.0
+User4,2026-06-04,Hotstar,ChatGPT,1,43.0
+User4,2026-06-05,CodeChef,Postgres pgAdmin,1,80.0
+User4,2026-06-05,Postgres pgAdmin,Notion,1,104.0
+User4,2026-06-05,Notion,Jupyter Notebook,1,47.0
+User4,2026-06-05,Jupyter Notebook,Claude,1,65.0
+User4,2026-06-05,Claude,Udemy,1,75.0
+User4,2026-06-05,Udemy,Zoom,1,80.0
+User4,2026-06-06,HackerRank,Postgres pgAdmin,1,7.0
+User4,2026-06-06,Postgres pgAdmin,YouTube,1,94.0
+User4,2026-06-06,YouTube,Google Sheets,1,71.0
+User4,2026-06-06,Google Sheets,Hotstar,1,114.0
+User4,2026-06-06,Hotstar,Hotstar,1,68.0
+User4,2026-06-06,Hotstar,News18,1,43.0
+User4,2026-06-06,News18,Microsoft Teams,1,11.0
+User4,2026-06-06,Microsoft Teams,HackerRank,1,42.0
+User4,2026-06-07,Candy Crush,Trello,1,13.0
+User4,2026-06-07,Trello,Stack Overflow,1,16.0
+User4,2026-06-07,Stack Overflow,News18,1,46.0
+User4,2026-06-07,News18,Stack Overflow,1,20.0
+User4,2026-06-07,Stack Overflow,GitHub,1,12.0
+User4,2026-06-07,GitHub,Overleaf,1,3.0
+User4,2026-06-07,Overleaf,W3Schools,1,92.0
+User4,2026-06-07,W3Schools,GitLab,1,100.0
+User4,2026-06-07,GitLab,LeetCode,1,107.0
+User4,2026-06-08,Instagram,Facebook,1,79.0
+User4,2026-06-08,Facebook,Overleaf,1,55.0
+User4,2026-06-08,Overleaf,Twitter/X,1,67.0
+User4,2026-06-08,Twitter/X,WhatsApp Web,1,15.0
+User4,2026-06-08,WhatsApp Web,Notion,1,67.0
+User4,2026-06-08,Notion,LinkedIn Learning,1,61.0
+User4,2026-06-08,LinkedIn Learning,PUBG Mobile,1,43.0
+User4,2026-06-08,PUBG Mobile,Instagram,1,92.0
+User4,2026-06-08,Instagram,Trello,1,33.0
+User4,2026-06-08,Trello,Prime Video,1,58.0
+User4,2026-06-09,Microsoft Teams,PUBG Mobile,1,108.0
+User4,2026-06-09,PUBG Mobile,Amazon,1,61.0
+User4,2026-06-09,Amazon,Amazon,1,18.0
+User4,2026-06-09,Amazon,News18,1,5.0
+User4,2026-06-09,News18,GitHub,1,30.0
+User4,2026-06-09,GitHub,Stack Overflow,1,82.0
+User4,2026-06-09,Stack Overflow,Amazon,1,113.0
+User4,2026-06-09,Amazon,Reddit,1,38.0
+User4,2026-06-10,Overleaf,GitHub,1,59.0
+User4,2026-06-10,GitHub,Udemy,1,83.0
+User4,2026-06-10,Udemy,PUBG Mobile,1,88.0
+User4,2026-06-10,PUBG Mobile,Overleaf,1,94.0
+User4,2026-06-10,Overleaf,Slack,1,109.0
+User4,2026-06-10,Slack,Postgres pgAdmin,1,39.0
+User4,2026-06-10,Postgres pgAdmin,WhatsApp Web,1,12.0
+User4,2026-06-10,WhatsApp Web,Udemy,1,113.0
+User4,2026-06-11,PUBG Mobile,Pinterest,1,77.0
+User4,2026-06-11,Pinterest,Amazon,1,38.0
+User4,2026-06-11,Amazon,YouTube,1,113.0
+User4,2026-06-11,YouTube,Twitter/X,1,37.0
+User4,2026-06-12,Spotify,GitHub,1,84.0
+User4,2026-06-12,GitHub,Postgres pgAdmin,1,78.0
+User4,2026-06-12,Postgres pgAdmin,LinkedIn Learning,1,95.0
+User4,2026-06-12,LinkedIn Learning,Stack Overflow,1,72.0
+User4,2026-06-12,Stack Overflow,TikTok,1,25.0
+User4,2026-06-12,TikTok,GitHub,1,57.0
+User4,2026-06-13,Coursera,CodeChef,1,3.0
+User4,2026-06-13,CodeChef,GitHub,1,30.0
+User4,2026-06-13,GitHub,Google Sheets,1,49.0
+User4,2026-06-13,Google Sheets,Candy Crush,1,18.0
+User4,2026-06-13,Candy Crush,Notion,1,34.0
+User4,2026-06-13,Notion,WhatsApp Web,1,114.0
+User4,2026-06-13,WhatsApp Web,Hotstar,1,84.0
+User4,2026-06-13,Hotstar,YouTube,1,103.0
+User4,2026-06-13,YouTube,W3Schools,1,2.0
+User4,2026-06-13,W3Schools,Notion,1,85.0
+User4,2026-06-13,Notion,Microsoft Teams,1,3.0
+User4,2026-06-14,GitHub,LinkedIn Learning,1,25.0
+User4,2026-06-14,LinkedIn Learning,Notion,1,53.0
+User4,2026-06-14,Notion,TikTok,1,16.0
+User4,2026-06-14,TikTok,Hotstar,1,27.0
+User4,2026-06-15,Jupyter Notebook,Coursera,1,23.0
+User4,2026-06-15,Coursera,Reddit,1,71.0
+User4,2026-06-15,Reddit,YouTube,1,22.0
+User4,2026-06-15,YouTube,Hotstar,1,71.0
+User4,2026-06-15,Hotstar,Jira,1,19.0
+User4,2026-06-16,Stack Overflow,LinkedIn Learning,1,78.0
+User4,2026-06-16,LinkedIn Learning,TikTok,1,50.0
+User4,2026-06-16,TikTok,LeetCode,1,76.0
+User4,2026-06-16,LeetCode,News18,1,37.0
+User4,2026-06-16,News18,Reddit,1,85.0
+User4,2026-06-17,Amazon,ChatGPT,1,71.0
+User4,2026-06-17,ChatGPT,HackerRank,1,37.0
+User4,2026-06-17,HackerRank,CodeChef,1,89.0
+User4,2026-06-17,CodeChef,Postgres pgAdmin,1,75.0
+User4,2026-06-17,Postgres pgAdmin,GitLab,1,81.0
+User4,2026-06-17,GitLab,Trello,1,76.0
+User4,2026-06-17,Trello,Jira,1,4.0
+User4,2026-06-17,Jira,Udemy,1,57.0
+User4,2026-06-18,Netflix,Spotify,1,88.0
+User4,2026-06-18,Spotify,GeeksforGeeks,1,11.0
+User4,2026-06-18,GeeksforGeeks,Notion,1,74.0
+User4,2026-06-18,Notion,Zoom,1,38.0
+User4,2026-06-18,Zoom,Jira,1,89.0
+User4,2026-06-18,Jira,Candy Crush,1,48.0
+User4,2026-06-18,Candy Crush,Snapchat,1,119.0
+User4,2026-06-18,Snapchat,Netflix,1,70.0
+User4,2026-06-18,Netflix,CodeChef,1,17.0
+User4,2026-06-18,CodeChef,Flipkart,1,88.0
+User4,2026-06-18,Flipkart,PUBG Mobile,1,34.0
+User4,2026-06-19,GeeksforGeeks,Google Docs,1,21.0
+User4,2026-06-19,Google Docs,GitLab,1,43.0
+User4,2026-06-19,GitLab,Zoom,1,41.0
+User4,2026-06-19,Zoom,Google Meet,1,16.0
+User4,2026-06-19,Google Meet,Reddit,1,63.0
+User4,2026-06-19,Reddit,Claude,1,100.0
+User4,2026-06-19,Claude,Stack Overflow,1,11.0
+User4,2026-06-19,Stack Overflow,ChatGPT,1,2.0
+User4,2026-06-19,ChatGPT,GitHub,1,113.0
+User4,2026-06-19,GitHub,Udemy,1,39.0
+User4,2026-06-19,Udemy,Slack,1,25.0
+User4,2026-06-19,Slack,Hotstar,1,4.0
+User4,2026-06-19,Hotstar,Snapchat,1,30.0
+User4,2026-06-19,Snapchat,Flipkart,1,32.0
+User4,2026-06-20,Jupyter Notebook,Amazon,1,3.0
+User4,2026-06-20,Amazon,Google Docs,1,24.0
+User4,2026-06-20,Google Docs,W3Schools,1,91.0
+User4,2026-06-20,W3Schools,Overleaf,1,89.0
+User4,2026-06-20,Overleaf,Flipkart,1,41.0
+User4,2026-06-20,Flipkart,YouTube,1,64.0
+User4,2026-06-21,Jira,LeetCode,1,11.0
+User4,2026-06-21,LeetCode,Jira,1,94.0
+User4,2026-06-21,Jira,Jira,1,112.0
+User4,2026-06-21,Jira,GeeksforGeeks,1,75.0
+User4,2026-06-21,GeeksforGeeks,Hotstar,1,74.0
+User4,2026-06-21,Hotstar,HackerRank,1,84.0
+User4,2026-06-21,HackerRank,Facebook,1,69.0
+User4,2026-06-21,Facebook,Postgres pgAdmin,1,89.0
+User4,2026-06-21,Postgres pgAdmin,Microsoft Teams,1,78.0
+User4,2026-06-21,Microsoft Teams,Postgres pgAdmin,1,41.0
+User4,2026-06-22,VS Code,Stack Overflow,1,60.0
+User4,2026-06-22,Stack Overflow,TikTok,1,39.0
+User4,2026-06-22,TikTok,Reddit,1,39.0
+User4,2026-06-22,Reddit,TikTok,1,38.0
+User4,2026-06-22,TikTok,News18,1,95.0
+User4,2026-06-22,News18,Google Sheets,1,97.0
+User4,2026-06-22,Google Sheets,Jira,1,96.0
+User4,2026-06-22,Jira,LeetCode,1,80.0
+User4,2026-06-22,LeetCode,Overleaf,1,14.0
+User4,2026-06-23,WhatsApp Web,LeetCode,1,100.0
+User4,2026-06-23,LeetCode,Netflix,1,82.0
+User4,2026-06-23,Netflix,Flipkart,1,81.0
+User4,2026-06-23,Flipkart,Twitter/X,1,95.0
+User4,2026-06-23,Twitter/X,Stack Overflow,1,112.0
+User4,2026-06-23,Stack Overflow,Udemy,1,38.0
+User4,2026-06-23,Udemy,Twitter/X,1,51.0
+User4,2026-06-23,Twitter/X,Google Docs,1,106.0
+User4,2026-06-24,LinkedIn Learning,HackerRank,1,1.0
+User4,2026-06-24,HackerRank,Jupyter Notebook,1,86.0
+User4,2026-06-24,Jupyter Notebook,GeeksforGeeks,1,112.0
+User4,2026-06-24,GeeksforGeeks,Reddit,1,118.0
+User4,2026-06-24,Reddit,LeetCode,1,18.0
+User4,2026-06-24,LeetCode,Google Meet,1,30.0
+User4,2026-06-24,Google Meet,YouTube,1,32.0
+User4,2026-06-24,YouTube,PUBG Mobile,1,32.0
+User4,2026-06-24,PUBG Mobile,Trello,1,47.0
+User4,2026-06-24,Trello,CodeChef,1,73.0
+User4,2026-06-24,CodeChef,Candy Crush,1,89.0
+User4,2026-06-24,Candy Crush,YouTube,1,90.0
+User4,2026-06-25,LinkedIn Learning,HackerRank,1,109.0
+User4,2026-06-25,HackerRank,Pinterest,1,32.0
+User4,2026-06-25,Pinterest,WhatsApp Web,1,71.0
+User4,2026-06-25,WhatsApp Web,Instagram,1,68.0
+User4,2026-06-25,Instagram,VS Code,1,78.0
+User4,2026-06-25,VS Code,W3Schools,1,95.0
+User4,2026-06-25,W3Schools,Pinterest,1,55.0
+User4,2026-06-26,Instagram,HackerRank,1,60.0
+User4,2026-06-26,HackerRank,Udemy,1,36.0
+User4,2026-06-26,Udemy,Zoom,1,55.0
+User4,2026-06-26,Zoom,CodeChef,1,40.0
+User4,2026-06-26,CodeChef,Instagram,1,106.0
+User4,2026-06-26,Instagram,Netflix,1,7.0
+User4,2026-06-26,Netflix,Google Docs,1,119.0
+User4,2026-06-26,Google Docs,VS Code,1,85.0
+User4,2026-06-26,VS Code,Claude,1,87.0
+User4,2026-06-26,Claude,Notion,1,119.0
+User4,2026-06-26,Notion,W3Schools,1,29.0
+User4,2026-06-26,W3Schools,Candy Crush,1,1.0
+User4,2026-06-26,Candy Crush,GitLab,1,32.0
+User4,2026-06-26,GitLab,Hotstar,1,88.0
+User4,2026-06-27,Udemy,Slack,1,32.0
+User4,2026-06-27,Slack,WhatsApp Web,1,8.0
+User4,2026-06-27,WhatsApp Web,Spotify,1,4.0
+User4,2026-06-27,Spotify,Google Sheets,1,114.0
+User4,2026-06-27,Google Sheets,Overleaf,1,116.0
+User4,2026-06-27,Overleaf,W3Schools,1,98.0
+User4,2026-06-27,W3Schools,Reddit,1,18.0
+User4,2026-06-27,Reddit,Jupyter Notebook,1,41.0
+User4,2026-06-27,Jupyter Notebook,Google Sheets,1,14.0
+User4,2026-06-28,Candy Crush,Notion,1,95.0
+User4,2026-06-28,Notion,Spotify,1,50.0
+User4,2026-06-28,Spotify,Udemy,1,55.0
+User4,2026-06-28,Udemy,Twitter/X,1,102.0
+User4,2026-06-28,Twitter/X,News18,1,82.0
+User4,2026-06-28,News18,Jira,1,111.0
+User4,2026-06-28,Jira,Flipkart,1,15.0
+User4,2026-06-28,Flipkart,WhatsApp Web,1,39.0
+User4,2026-06-29,News18,Netflix,1,44.0
+User4,2026-06-29,Netflix,YouTube,1,104.0
+User4,2026-06-29,YouTube,Microsoft Teams,1,111.0
+User4,2026-06-29,Microsoft Teams,Prime Video,1,82.0
+User4,2026-06-29,Prime Video,GitLab,1,49.0
+User4,2026-06-29,GitLab,Flipkart,1,73.0
+User4,2026-06-29,Flipkart,Trello,1,44.0
+User4,2026-06-30,Google Meet,CodeChef,1,37.0
+User4,2026-06-30,CodeChef,Prime Video,1,41.0
+User4,2026-06-30,Prime Video,YouTube,1,46.0
+User4,2026-06-30,YouTube,Slack,1,110.0
+User4,2026-06-30,Slack,Facebook,1,21.0
+User4,2026-06-30,Facebook,TikTok,1,82.0
+User4,2026-06-30,TikTok,Jupyter Notebook,1,39.0
+User4,2026-06-30,Jupyter Notebook,Udemy,1,1.0
+User4,2026-06-30,Udemy,Jupyter Notebook,1,99.0
+User4,2026-06-30,Jupyter Notebook,Flipkart,1,10.0
+User4,2026-06-30,Flipkart,Google Sheets,1,81.0
+User4,2026-06-30,Google Sheets,PUBG Mobile,1,1.0
+User4,2026-07-01,Postgres pgAdmin,Amazon,1,29.0
+User4,2026-07-01,Amazon,Udemy,1,30.0
+User4,2026-07-01,Udemy,WhatsApp Web,1,76.0
+User4,2026-07-01,WhatsApp Web,Trello,1,46.0
+User4,2026-07-01,Trello,Netflix,1,65.0
+User4,2026-07-01,Netflix,Prime Video,1,110.0
+User4,2026-07-01,Prime Video,Pinterest,1,58.0
+User4,2026-07-01,Pinterest,Google Docs,1,31.0
+User4,2026-07-01,Google Docs,Twitter/X,1,83.0
+User4,2026-07-01,Twitter/X,Prime Video,1,36.0
+User4,2026-07-01,Prime Video,Google Meet,1,13.0
+User4,2026-07-02,Google Meet,Trello,1,18.0
+User4,2026-07-02,Trello,GeeksforGeeks,1,56.0
+User4,2026-07-02,GeeksforGeeks,GitLab,1,51.0
+User4,2026-07-02,GitLab,Facebook,1,1.0
+User4,2026-07-02,Facebook,Microsoft Teams,1,114.0
+User4,2026-07-02,Microsoft Teams,Microsoft Teams,1,44.0
+User4,2026-07-02,Microsoft Teams,WhatsApp Web,1,13.0
+User4,2026-07-02,WhatsApp Web,Pinterest,1,60.0
+User4,2026-07-03,Zoom,Amazon,1,99.0
+User4,2026-07-03,Amazon,Amazon,1,13.0
+User4,2026-07-03,Amazon,Reddit,1,22.0
+User4,2026-07-03,Reddit,Pinterest,1,67.0
+User4,2026-07-03,Pinterest,VS Code,1,63.0
+User4,2026-07-03,VS Code,W3Schools,1,116.0
+User4,2026-07-03,W3Schools,WhatsApp Web,1,11.0
+User4,2026-07-03,WhatsApp Web,Snapchat,1,16.0
+User4,2026-07-03,Snapchat,Google Sheets,1,98.0
+User4,2026-07-03,Google Sheets,GitHub,1,9.0
+User4,2026-07-03,GitHub,PUBG Mobile,1,55.0
+User4,2026-07-03,PUBG Mobile,Zoom,1,72.0
+User4,2026-07-04,GitLab,YouTube,1,27.0
+User4,2026-07-04,YouTube,Snapchat,1,88.0
+User4,2026-07-04,Snapchat,Candy Crush,1,106.0
+User4,2026-07-04,Candy Crush,Facebook,1,44.0
+User4,2026-07-04,Facebook,CodeChef,1,87.0
+User4,2026-07-04,CodeChef,Google Sheets,1,76.0
+User4,2026-07-04,Google Sheets,Amazon,1,91.0
+User4,2026-07-04,Amazon,WhatsApp Web,1,79.0
+User4,2026-07-04,WhatsApp Web,LeetCode,1,48.0
+User4,2026-07-05,Jupyter Notebook,Prime Video,1,41.0
+User4,2026-07-05,Prime Video,Instagram,1,39.0
+User4,2026-07-05,Instagram,Instagram,1,14.0
+User4,2026-07-05,Instagram,Coursera,1,14.0
+User4,2026-07-05,Coursera,Snapchat,1,15.0
+User4,2026-07-05,Snapchat,Microsoft Teams,1,57.0
+User4,2026-07-05,Microsoft Teams,Slack,1,74.0
+User4,2026-07-05,Slack,GitLab,1,110.0
+User4,2026-07-05,GitLab,Microsoft Teams,1,5.0
+User4,2026-07-05,Microsoft Teams,Udemy,1,6.0
+User4,2026-07-05,Udemy,Prime Video,1,26.0
+User4,2026-07-05,Prime Video,Stack Overflow,1,25.0
+User4,2026-07-06,Spotify,Twitter/X,1,55.0
+User4,2026-07-06,Twitter/X,LinkedIn Learning,1,47.0
+User4,2026-07-06,LinkedIn Learning,Google Meet,1,24.0
+User4,2026-07-06,Google Meet,CodeChef,1,15.0
+User4,2026-07-06,CodeChef,Postgres pgAdmin,1,85.0
+User4,2026-07-07,Trello,Jupyter Notebook,1,92.0
+User4,2026-07-07,Jupyter Notebook,GitLab,1,107.0
+User4,2026-07-07,GitLab,Notion,1,111.0
+User4,2026-07-07,Notion,Google Docs,1,70.0
+User4,2026-07-07,Google Docs,Microsoft Teams,1,55.0
+User4,2026-07-07,Microsoft Teams,Jira,1,81.0
+User4,2026-07-07,Jira,Notion,1,106.0
+User4,2026-07-07,Notion,LinkedIn Learning,1,70.0
+User4,2026-07-07,LinkedIn Learning,Hotstar,1,29.0
+User4,2026-07-07,Hotstar,PUBG Mobile,1,26.0
+User4,2026-07-07,PUBG Mobile,Facebook,1,49.0
+User4,2026-07-07,Facebook,VS Code,1,68.0
+User4,2026-07-07,VS Code,Jupyter Notebook,1,63.0
+User4,2026-07-07,Jupyter Notebook,Hotstar,1,49.0
+User4,2026-07-08,Zoom,ChatGPT,1,115.0
+User4,2026-07-08,ChatGPT,HackerRank,1,9.0
+User4,2026-07-08,HackerRank,ChatGPT,1,55.0
+User4,2026-07-08,ChatGPT,Google Meet,1,82.0
+User4,2026-07-08,Google Meet,News18,1,86.0
+User4,2026-07-08,News18,LeetCode,1,16.0
+User4,2026-07-08,LeetCode,Claude,1,53.0
+User4,2026-07-08,Claude,PUBG Mobile,1,10.0
+User4,2026-07-08,PUBG Mobile,Jira,1,63.0
+User4,2026-07-09,News18,Stack Overflow,1,50.0
+User4,2026-07-09,Stack Overflow,PUBG Mobile,1,76.0
+User4,2026-07-09,PUBG Mobile,Netflix,1,49.0
+User4,2026-07-09,Netflix,GeeksforGeeks,1,68.0
+User4,2026-07-09,GeeksforGeeks,Jupyter Notebook,1,50.0
+User4,2026-07-09,Jupyter Notebook,GitHub,1,68.0
+User4,2026-07-09,GitHub,WhatsApp Web,1,84.0
+User4,2026-07-09,WhatsApp Web,Google Sheets,1,76.0
+User4,2026-07-09,Google Sheets,ChatGPT,1,66.0
+User4,2026-07-09,ChatGPT,Overleaf,1,3.0
+User4,2026-07-09,Overleaf,Jupyter Notebook,1,92.0
+User4,2026-07-09,Jupyter Notebook,GeeksforGeeks,1,2.0
+User4,2026-07-09,GeeksforGeeks,Google Meet,1,119.0
+User4,2026-07-10,Claude,Spotify,1,30.0
+User4,2026-07-10,Spotify,GitHub,1,6.0
+User4,2026-07-10,GitHub,Notion,1,51.0
+User4,2026-07-10,Notion,Coursera,1,46.0
+User4,2026-07-10,Coursera,Claude,1,81.0
+User4,2026-07-10,Claude,VS Code,1,95.0
+User4,2026-07-10,VS Code,Google Meet,1,119.0
+User4,2026-07-11,Jira,Netflix,1,6.0
+User4,2026-07-11,Netflix,Trello,1,91.0
+User4,2026-07-11,Trello,Stack Overflow,1,36.0
+User4,2026-07-11,Stack Overflow,VS Code,1,16.0
+User4,2026-07-11,VS Code,Google Docs,1,58.0
+User4,2026-07-11,Google Docs,CodeChef,1,28.0
+User4,2026-07-11,CodeChef,TikTok,1,26.0
+User4,2026-07-11,TikTok,Candy Crush,1,54.0
+User4,2026-07-11,Candy Crush,GeeksforGeeks,1,83.0
+User4,2026-07-11,GeeksforGeeks,Prime Video,1,97.0
+User4,2026-07-11,Prime Video,Google Sheets,1,63.0
+User4,2026-07-12,Postgres pgAdmin,Trello,1,46.0
+User4,2026-07-12,Trello,PUBG Mobile,1,76.0
+User4,2026-07-12,PUBG Mobile,Candy Crush,1,57.0
+User4,2026-07-12,Candy Crush,Trello,1,58.0
+User4,2026-07-12,Trello,Hotstar,1,51.0
+User4,2026-07-12,Hotstar,ChatGPT,1,101.0
+User4,2026-07-12,ChatGPT,Flipkart,1,39.0
+User4,2026-07-12,Flipkart,GitLab,1,12.0
+User4,2026-07-13,Overleaf,Microsoft Teams,1,103.0
+User4,2026-07-13,Microsoft Teams,News18,1,51.0
+User4,2026-07-13,News18,Facebook,1,59.0
+User4,2026-07-13,Facebook,Claude,1,103.0
+User4,2026-07-13,Claude,Microsoft Teams,1,108.0
+User4,2026-07-13,Microsoft Teams,GitLab,1,47.0
+User4,2026-07-13,GitLab,Jupyter Notebook,1,14.0
+User4,2026-07-13,Jupyter Notebook,Pinterest,1,115.0
+User4,2026-07-13,Pinterest,WhatsApp Web,1,20.0
+User4,2026-07-14,Trello,Google Meet,1,69.0
+User4,2026-07-14,Google Meet,Pinterest,1,68.0
+User4,2026-07-14,Pinterest,VS Code,1,4.0
+User4,2026-07-14,VS Code,Spotify,1,118.0
+User4,2026-07-14,Spotify,WhatsApp Web,1,7.0
+User4,2026-07-14,WhatsApp Web,WhatsApp Web,1,20.0
+User4,2026-07-14,WhatsApp Web,Zoom,1,25.0
+User4,2026-07-14,Zoom,LinkedIn Learning,1,116.0
+User4,2026-07-14,LinkedIn Learning,VS Code,1,70.0
+User4,2026-07-14,VS Code,TikTok,1,81.0
+User4,2026-07-14,TikTok,GitLab,1,52.0
+User4,2026-07-15,Slack,Amazon,1,40.0
+User4,2026-07-15,Amazon,TikTok,1,24.0
+User4,2026-07-15,TikTok,Reddit,1,53.0
+User4,2026-07-15,Reddit,Amazon,1,70.0
+User4,2026-07-15,Amazon,Instagram,1,4.0
+User4,2026-07-15,Instagram,Instagram,1,115.0
+User4,2026-07-15,Instagram,ChatGPT,1,92.5
+User4,2026-07-15,ChatGPT,Facebook,1,57.0
+User4,2026-07-15,Facebook,Google Docs,1,8.75
+User4,2026-07-15,Google Docs,Twitter/X,1,38.0
+User5,2026-06-01,Spotify,News18,1,17.0
+User5,2026-06-01,News18,CodeChef,1,98.0
+User5,2026-06-01,CodeChef,Reddit,1,63.0
+User5,2026-06-01,Reddit,TikTok,1,20.0
+User5,2026-06-01,TikTok,PUBG Mobile,1,106.0
+User5,2026-06-02,Trello,Coursera,1,27.0
+User5,2026-06-02,Coursera,TikTok,1,116.0
+User5,2026-06-02,TikTok,Twitter/X,1,30.0
+User5,2026-06-02,Twitter/X,Slack,1,90.0
+User5,2026-06-02,Slack,PUBG Mobile,1,111.0
+User5,2026-06-02,PUBG Mobile,Slack,1,51.0
+User5,2026-06-02,Slack,HackerRank,1,21.0
+User5,2026-06-02,HackerRank,Amazon,1,86.0
+User5,2026-06-03,Google Docs,Amazon,1,113.0
+User5,2026-06-03,Amazon,Snapchat,1,76.0
+User5,2026-06-03,Snapchat,Notion,1,12.0
+User5,2026-06-03,Notion,Zoom,1,16.0
+User5,2026-06-03,Zoom,Google Sheets,1,107.0
+User5,2026-06-03,Google Sheets,YouTube,1,61.0
+User5,2026-06-03,YouTube,Notion,1,120.0
+User5,2026-06-03,Notion,Prime Video,1,80.0
+User5,2026-06-03,Prime Video,Coursera,1,117.0
+User5,2026-06-03,Coursera,Spotify,1,112.0
+User5,2026-06-03,Spotify,Pinterest,1,32.0
+User5,2026-06-03,Pinterest,Instagram,1,26.0
+User5,2026-06-04,LeetCode,GitLab,1,40.0
+User5,2026-06-04,GitLab,YouTube,1,54.0
+User5,2026-06-04,YouTube,Trello,1,34.0
+User5,2026-06-04,Trello,Facebook,1,2.0
+User5,2026-06-04,Facebook,Candy Crush,1,100.0
+User5,2026-06-04,Candy Crush,Pinterest,1,108.0
+User5,2026-06-04,Pinterest,Postgres pgAdmin,1,51.0
+User5,2026-06-04,Postgres pgAdmin,TikTok,1,53.0
+User5,2026-06-04,TikTok,Jupyter Notebook,1,83.0
+User5,2026-06-04,Jupyter Notebook,Google Sheets,1,8.0
+User5,2026-06-04,Google Sheets,YouTube,1,20.0
+User5,2026-06-05,Facebook,Snapchat,1,82.0
+User5,2026-06-05,Snapchat,Trello,1,41.0
+User5,2026-06-05,Trello,Jira,1,13.0
+User5,2026-06-05,Jira,LeetCode,1,83.0
+User5,2026-06-05,LeetCode,Flipkart,1,78.0
+User5,2026-06-05,Flipkart,W3Schools,1,43.0
+User5,2026-06-05,W3Schools,LeetCode,1,87.0
+User5,2026-06-06,Trello,Zoom,1,8.0
+User5,2026-06-06,Zoom,VS Code,1,14.0
+User5,2026-06-06,VS Code,Spotify,1,67.0
+User5,2026-06-06,Spotify,Flipkart,1,96.0
+User5,2026-06-06,Flipkart,Jira,1,119.0
+User5,2026-06-06,Jira,GeeksforGeeks,1,113.0
+User5,2026-06-06,GeeksforGeeks,Claude,1,14.0
+User5,2026-06-06,Claude,Prime Video,1,41.0
+User5,2026-06-06,Prime Video,Prime Video,1,112.0
+User5,2026-06-06,Prime Video,YouTube,1,79.0
+User5,2026-06-07,Stack Overflow,TikTok,1,45.0
+User5,2026-06-07,TikTok,Zoom,1,26.0
+User5,2026-06-07,Zoom,Amazon,1,30.0
+User5,2026-06-07,Amazon,Jupyter Notebook,1,31.0
+User5,2026-06-07,Jupyter Notebook,PUBG Mobile,1,81.0
+User5,2026-06-07,PUBG Mobile,Notion,1,22.0
+User5,2026-06-07,Notion,Prime Video,1,79.0
+User5,2026-06-07,Prime Video,Candy Crush,1,87.0
+User5,2026-06-07,Candy Crush,Candy Crush,1,94.0
+User5,2026-06-07,Candy Crush,News18,1,44.0
+User5,2026-06-07,News18,Facebook,1,88.0
+User5,2026-06-07,Facebook,Trello,1,50.0
+User5,2026-06-07,Trello,Slack,1,70.0
+User5,2026-06-07,Slack,Spotify,1,39.0
+User5,2026-06-07,Spotify,Facebook,1,31.0
+User5,2026-06-07,Facebook,Prime Video,1,89.0
+User5,2026-06-07,Prime Video,Spotify,1,69.0
+User5,2026-06-07,Spotify,LinkedIn Learning,1,16.0
+User5,2026-06-08,Reddit,Notion,1,89.0
+User5,2026-06-08,Notion,WhatsApp Web,1,85.0
+User5,2026-06-08,WhatsApp Web,Google Sheets,1,3.0
+User5,2026-06-08,Google Sheets,Coursera,1,5.0
+User5,2026-06-08,Coursera,Hotstar,1,32.0
+User5,2026-06-08,Hotstar,Twitter/X,1,120.0
+User5,2026-06-08,Twitter/X,Notion,1,57.0
+User5,2026-06-08,Notion,CodeChef,1,32.0
+User5,2026-06-08,CodeChef,GitLab,1,119.0
+User5,2026-06-08,GitLab,LeetCode,1,57.0
+User5,2026-06-09,VS Code,Spotify,2,154.0
+User5,2026-06-09,Spotify,Stack Overflow,1,50.0
+User5,2026-06-09,Stack Overflow,Notion,1,56.0
+User5,2026-06-09,Notion,GeeksforGeeks,1,52.0
+User5,2026-06-09,GeeksforGeeks,W3Schools,1,70.0
+User5,2026-06-09,W3Schools,Amazon,1,42.0
+User5,2026-06-09,Amazon,VS Code,1,81.0
+User5,2026-06-09,Spotify,W3Schools,1,38.0
+User5,2026-06-09,W3Schools,Pinterest,1,88.0
+User5,2026-06-09,Pinterest,Facebook,1,52.0
+User5,2026-06-10,WhatsApp Web,Reddit,1,83.0
+User5,2026-06-10,Reddit,Prime Video,1,1.0
+User5,2026-06-10,Prime Video,ChatGPT,1,16.0
+User5,2026-06-11,Instagram,Netflix,1,67.0
+User5,2026-06-11,Netflix,Stack Overflow,1,41.0
+User5,2026-06-11,Stack Overflow,Zoom,1,9.0
+User5,2026-06-11,Zoom,Jupyter Notebook,1,91.0
+User5,2026-06-11,Jupyter Notebook,Jira,1,65.0
+User5,2026-06-11,Jira,CodeChef,2,100.0
+User5,2026-06-11,CodeChef,Zoom,1,35.0
+User5,2026-06-11,Zoom,Jira,1,18.0
+User5,2026-06-11,CodeChef,YouTube,1,71.0
+User5,2026-06-11,YouTube,Candy Crush,1,6.0
+User5,2026-06-11,Candy Crush,News18,1,18.0
+User5,2026-06-11,News18,Spotify,1,33.0
+User5,2026-06-12,Coursera,Twitter/X,1,108.0
+User5,2026-06-12,Twitter/X,Spotify,1,49.0
+User5,2026-06-12,Spotify,Amazon,1,113.0
+User5,2026-06-12,Amazon,Udemy,1,22.0
+User5,2026-06-12,Udemy,Claude,1,34.0
+User5,2026-06-12,Claude,Trello,1,64.0
+User5,2026-06-12,Trello,News18,1,39.0
+User5,2026-06-12,News18,Amazon,1,59.0
+User5,2026-06-12,Amazon,Prime Video,1,66.0
+User5,2026-06-12,Prime Video,CodeChef,1,81.0
+User5,2026-06-12,CodeChef,Trello,1,117.0
+User5,2026-06-12,Trello,Snapchat,1,37.0
+User5,2026-06-12,Snapchat,Notion,1,63.0
+User5,2026-06-12,Notion,GitHub,1,72.0
+User5,2026-06-13,Google Docs,Amazon,1,107.0
+User5,2026-06-13,Amazon,LinkedIn Learning,2,181.0
+User5,2026-06-13,LinkedIn Learning,Jupyter Notebook,1,23.0
+User5,2026-06-13,Jupyter Notebook,TikTok,1,50.0
+User5,2026-06-13,TikTok,Notion,1,33.0
+User5,2026-06-13,Notion,Amazon,1,38.0
+User5,2026-06-13,LinkedIn Learning,Snapchat,1,70.0
+User5,2026-06-13,Snapchat,Notion,1,74.0
+User5,2026-06-13,Notion,WhatsApp Web,1,24.0
+User5,2026-06-13,WhatsApp Web,News18,1,40.0
+User5,2026-06-14,Slack,Slack,2,90.0
+User5,2026-06-14,Slack,News18,1,65.0
+User5,2026-06-14,News18,HackerRank,1,36.0
+User5,2026-06-14,HackerRank,Netflix,1,53.0
+User5,2026-06-14,Netflix,Amazon,1,17.0
+User5,2026-06-14,Amazon,VS Code,1,34.0
+User5,2026-06-14,VS Code,Microsoft Teams,1,90.0
+User5,2026-06-14,Microsoft Teams,Slack,1,63.0
+User5,2026-06-14,Slack,PUBG Mobile,1,35.0
+User5,2026-06-15,Spotify,GeeksforGeeks,1,25.0
+User5,2026-06-15,GeeksforGeeks,Prime Video,1,95.0
+User5,2026-06-15,Prime Video,ChatGPT,1,78.0
+User5,2026-06-15,ChatGPT,PUBG Mobile,1,55.0
+User5,2026-06-15,PUBG Mobile,VS Code,1,44.0
+User5,2026-06-15,VS Code,Trello,1,22.0
+User5,2026-06-15,Trello,GeeksforGeeks,1,5.0
+User5,2026-06-15,GeeksforGeeks,Slack,1,59.0
+User5,2026-06-15,Slack,Amazon,1,107.0
+User5,2026-06-15,Amazon,Trello,1,119.0
+User5,2026-06-15,Trello,GitHub,1,103.0
+User5,2026-06-15,GitHub,GitHub,1,104.0
+User5,2026-06-15,GitHub,Google Meet,1,73.0
+User5,2026-06-15,Google Meet,YouTube,1,101.0
+User5,2026-06-15,YouTube,Postgres pgAdmin,1,93.0
+User5,2026-06-16,Google Sheets,LeetCode,1,13.0
+User5,2026-06-16,LeetCode,Stack Overflow,1,111.0
+User5,2026-06-16,Stack Overflow,Stack Overflow,1,66.0
+User5,2026-06-16,Stack Overflow,Candy Crush,1,9.0
+User5,2026-06-16,Candy Crush,Stack Overflow,1,95.0
+User5,2026-06-16,Stack Overflow,News18,1,75.0
+User5,2026-06-16,News18,Netflix,1,83.0
+User5,2026-06-16,Netflix,Instagram,1,26.0
+User5,2026-06-16,Instagram,ChatGPT,1,81.0
+User5,2026-06-16,ChatGPT,Trello,1,75.0
+User5,2026-06-16,Trello,YouTube,1,21.0
+User5,2026-06-17,Twitter/X,Reddit,1,60.0
+User5,2026-06-17,Reddit,Udemy,1,71.0
+User5,2026-06-17,Udemy,Jupyter Notebook,1,48.0
+User5,2026-06-17,Jupyter Notebook,Claude,1,81.0
+User5,2026-06-17,Claude,GitLab,1,6.0
+User5,2026-06-17,GitLab,Hotstar,1,94.0
+User5,2026-06-17,Hotstar,Reddit,1,2.0
+User5,2026-06-17,Reddit,Flipkart,1,40.0
+User5,2026-06-17,Flipkart,Google Sheets,1,30.0
+User5,2026-06-17,Google Sheets,Spotify,1,49.0
+User5,2026-06-17,Spotify,Udemy,1,22.0
+User5,2026-06-17,Udemy,Slack,1,40.0
+User5,2026-06-18,Candy Crush,Coursera,1,85.0
+User5,2026-06-18,Coursera,Google Docs,1,4.0
+User5,2026-06-18,Google Docs,News18,1,78.0
+User5,2026-06-18,News18,Google Sheets,1,26.0
+User5,2026-06-18,Google Sheets,News18,1,96.0
+User5,2026-06-18,News18,Pinterest,1,35.0
+User5,2026-06-18,Pinterest,Pinterest,1,49.0
+User5,2026-06-18,Pinterest,Slack,1,22.0
+User5,2026-06-18,Slack,Overleaf,1,64.0
+User5,2026-06-18,Overleaf,PUBG Mobile,1,83.0
+User5,2026-06-19,Postgres pgAdmin,Spotify,1,109.0
+User5,2026-06-19,Spotify,W3Schools,1,39.0
+User5,2026-06-19,W3Schools,WhatsApp Web,1,67.0
+User5,2026-06-19,WhatsApp Web,Google Docs,1,38.0
+User5,2026-06-19,Google Docs,Coursera,1,87.0
+User5,2026-06-19,Coursera,VS Code,1,73.0
+User5,2026-06-19,VS Code,Overleaf,1,84.0
+User5,2026-06-20,Jupyter Notebook,ChatGPT,1,50.0
+User5,2026-06-20,ChatGPT,GeeksforGeeks,1,17.0
+User5,2026-06-20,GeeksforGeeks,Google Docs,1,55.0
+User5,2026-06-20,Google Docs,Trello,1,1.0
+User5,2026-06-20,Trello,WhatsApp Web,1,8.0
+User5,2026-06-20,WhatsApp Web,Pinterest,1,107.0
+User5,2026-06-20,Pinterest,W3Schools,1,68.0
+User5,2026-06-20,W3Schools,GeeksforGeeks,1,109.0
+User5,2026-06-20,GeeksforGeeks,News18,1,51.0
+User5,2026-06-20,News18,Google Sheets,1,100.0
+User5,2026-06-20,Google Sheets,PUBG Mobile,1,1.0
+User5,2026-06-21,Snapchat,Stack Overflow,1,99.0
+User5,2026-06-21,Stack Overflow,Reddit,1,81.0
+User5,2026-06-21,Reddit,Amazon,1,82.0
+User5,2026-06-21,Amazon,Twitter/X,1,52.0
+User5,2026-06-21,Twitter/X,Netflix,1,74.0
+User5,2026-06-21,Netflix,YouTube,1,82.0
+User5,2026-06-22,CodeChef,Candy Crush,1,119.0
+User5,2026-06-22,Candy Crush,Prime Video,1,46.0
+User5,2026-06-22,Prime Video,Google Sheets,1,98.0
+User5,2026-06-22,Google Sheets,Udemy,1,43.0
+User5,2026-06-22,Udemy,Jira,1,24.0
+User5,2026-06-22,Jira,Pinterest,1,92.0
+User5,2026-06-22,Pinterest,LinkedIn Learning,1,110.0
+User5,2026-06-22,LinkedIn Learning,Notion,1,95.0
+User5,2026-06-23,Twitter/X,Instagram,1,7.0
+User5,2026-06-23,Instagram,Google Docs,1,112.0
+User5,2026-06-23,Google Docs,Netflix,1,90.0
+User5,2026-06-23,Netflix,Jira,1,30.0
+User5,2026-06-23,Jira,Postgres pgAdmin,1,29.0
+User5,2026-06-23,Postgres pgAdmin,ChatGPT,1,83.0
+User5,2026-06-23,ChatGPT,Trello,1,54.0
+User5,2026-06-23,Trello,VS Code,1,48.0
+User5,2026-06-24,Spotify,Udemy,1,86.0
+User5,2026-06-24,Udemy,Trello,1,55.0
+User5,2026-06-24,Trello,Netflix,1,12.0
+User5,2026-06-24,Netflix,Google Meet,1,90.0
+User5,2026-06-24,Google Meet,Snapchat,1,6.0
+User5,2026-06-24,Snapchat,Amazon,1,97.0
+User5,2026-06-25,Prime Video,Google Docs,1,38.0
+User5,2026-06-25,Google Docs,LinkedIn Learning,1,3.0
+User5,2026-06-25,LinkedIn Learning,VS Code,1,82.0
+User5,2026-06-25,VS Code,Candy Crush,1,22.0
+User5,2026-06-25,Candy Crush,Google Sheets,1,86.0
+User5,2026-06-25,Google Sheets,Stack Overflow,1,71.0
+User5,2026-06-25,Stack Overflow,Slack,1,54.0
+User5,2026-06-25,Slack,Google Sheets,1,97.0
+User5,2026-06-25,Google Sheets,GeeksforGeeks,1,86.0
+User5,2026-06-26,Pinterest,Snapchat,1,84.0
+User5,2026-06-26,Snapchat,Amazon,1,106.0
+User5,2026-06-26,Amazon,Reddit,1,112.0
+User5,2026-06-26,Reddit,Udemy,1,69.0
+User5,2026-06-26,Udemy,Stack Overflow,1,36.0
+User5,2026-06-26,Stack Overflow,News18,1,12.0
+User5,2026-06-26,News18,Coursera,1,3.0
+User5,2026-06-27,Claude,Amazon,1,76.0
+User5,2026-06-27,Amazon,ChatGPT,1,84.0
+User5,2026-06-27,ChatGPT,Microsoft Teams,1,11.0
+User5,2026-06-27,Microsoft Teams,Microsoft Teams,1,101.0
+User5,2026-06-27,Microsoft Teams,Reddit,1,111.0
+User5,2026-06-27,Reddit,Jira,1,8.0
+User5,2026-06-27,Jira,Prime Video,1,86.0
+User5,2026-06-27,Prime Video,Zoom,1,86.0
+User5,2026-06-27,Zoom,Twitter/X,1,103.0
+User5,2026-06-27,Twitter/X,Overleaf,1,41.0
+User5,2026-06-27,Overleaf,Reddit,1,48.0
+User5,2026-06-27,Reddit,HackerRank,1,119.0
+User5,2026-06-27,HackerRank,Snapchat,1,31.0
+User5,2026-06-27,Snapchat,Stack Overflow,1,63.0
+User5,2026-06-28,Jupyter Notebook,PUBG Mobile,1,87.0
+User5,2026-06-28,PUBG Mobile,Overleaf,1,28.0
+User5,2026-06-28,Overleaf,PUBG Mobile,1,18.0
+User5,2026-06-28,PUBG Mobile,Postgres pgAdmin,1,67.0
+User5,2026-06-28,Postgres pgAdmin,Jupyter Notebook,1,39.0
+User5,2026-06-28,Jupyter Notebook,Prime Video,1,80.0
+User5,2026-06-28,Prime Video,Jupyter Notebook,1,118.0
+User5,2026-06-28,Jupyter Notebook,Zoom,1,6.0
+User5,2026-06-28,Zoom,Jupyter Notebook,1,32.0
+User5,2026-06-28,Jupyter Notebook,GeeksforGeeks,1,91.0
+User5,2026-06-28,GeeksforGeeks,News18,1,90.0
+User5,2026-06-28,News18,CodeChef,1,84.0
+User5,2026-06-28,CodeChef,Google Sheets,1,71.0
+User5,2026-06-28,Google Sheets,Slack,1,101.0
+User5,2026-06-28,Slack,Google Docs,1,73.0
+User5,2026-06-28,Google Docs,GitLab,1,9.0
+User5,2026-06-29,Jira,WhatsApp Web,1,10.0
+User5,2026-06-29,WhatsApp Web,W3Schools,1,34.0
+User5,2026-06-29,W3Schools,Jira,1,24.0
+User5,2026-06-29,Jira,News18,1,57.0
+User5,2026-06-29,News18,Spotify,1,15.0
+User5,2026-06-29,Spotify,ChatGPT,1,58.0
+User5,2026-06-29,ChatGPT,Overleaf,1,114.0
+User5,2026-06-29,Overleaf,W3Schools,1,108.0
+User5,2026-06-30,Reddit,Udemy,1,51.0
+User5,2026-06-30,Udemy,Claude,1,92.0
+User5,2026-06-30,Claude,Zoom,1,64.0
+User5,2026-06-30,Zoom,CodeChef,1,102.0
+User5,2026-06-30,CodeChef,Amazon,1,53.0
+User5,2026-06-30,Amazon,Jira,1,8.0
+User5,2026-06-30,Jira,Claude,1,47.0
+User5,2026-06-30,Claude,Stack Overflow,1,90.0
+User5,2026-06-30,Stack Overflow,LeetCode,1,5.0
+User5,2026-07-01,Spotify,Postgres pgAdmin,1,44.0
+User5,2026-07-01,Postgres pgAdmin,Udemy,1,51.0
+User5,2026-07-01,Udemy,HackerRank,1,41.0
+User5,2026-07-01,HackerRank,Snapchat,1,109.0
+User5,2026-07-01,Snapchat,News18,1,21.0
+User5,2026-07-01,News18,Google Sheets,1,1.0
+User5,2026-07-01,Google Sheets,GitLab,1,7.0
+User5,2026-07-01,GitLab,PUBG Mobile,1,65.0
+User5,2026-07-01,PUBG Mobile,Claude,1,106.0
+User5,2026-07-01,Claude,Snapchat,1,119.0
+User5,2026-07-02,Hotstar,ChatGPT,1,74.0
+User5,2026-07-02,ChatGPT,Candy Crush,1,1.0
+User5,2026-07-02,Candy Crush,Udemy,1,27.0
+User5,2026-07-02,Udemy,Overleaf,1,81.0
+User5,2026-07-02,Overleaf,Postgres pgAdmin,1,27.0
+User5,2026-07-02,Postgres pgAdmin,Candy Crush,1,3.0
+User5,2026-07-02,Candy Crush,News18,1,8.0
+User5,2026-07-02,News18,W3Schools,1,71.0
+User5,2026-07-02,W3Schools,Facebook,1,55.0
+User5,2026-07-02,Facebook,Spotify,1,81.0
+User5,2026-07-02,Spotify,Snapchat,1,1.0
+User5,2026-07-02,Snapchat,Coursera,1,39.0
+User5,2026-07-02,Coursera,CodeChef,1,107.0
+User5,2026-07-02,CodeChef,Facebook,1,117.0
+User5,2026-07-02,Facebook,Microsoft Teams,1,88.0
+User5,2026-07-03,ChatGPT,Flipkart,1,70.0
+User5,2026-07-03,Flipkart,HackerRank,1,55.0
+User5,2026-07-03,HackerRank,Jira,1,114.0
+User5,2026-07-03,Jira,Jupyter Notebook,1,78.0
+User5,2026-07-03,Jupyter Notebook,Stack Overflow,1,76.0
+User5,2026-07-03,Stack Overflow,Jira,1,16.0
+User5,2026-07-03,Jira,Pinterest,1,5.0
+User5,2026-07-04,Coursera,Instagram,1,117.0
+User5,2026-07-04,Instagram,W3Schools,1,95.0
+User5,2026-07-04,W3Schools,Overleaf,1,29.0
+User5,2026-07-04,Overleaf,News18,1,113.0
+User5,2026-07-04,News18,GeeksforGeeks,1,117.0
+User5,2026-07-04,GeeksforGeeks,Zoom,1,88.0
+User5,2026-07-04,Zoom,YouTube,1,37.0
+User5,2026-07-04,YouTube,Prime Video,1,31.0
+User5,2026-07-04,Prime Video,Netflix,1,15.0
+User5,2026-07-04,Netflix,Prime Video,1,15.0
+User5,2026-07-04,Prime Video,TikTok,1,102.0
+User5,2026-07-05,Amazon,Postgres pgAdmin,1,48.0
+User5,2026-07-05,Postgres pgAdmin,GitLab,1,115.0
+User5,2026-07-05,GitLab,Claude,1,32.0
+User5,2026-07-05,Claude,GitLab,1,50.0
+User5,2026-07-05,GitLab,Flipkart,1,37.0
+User5,2026-07-05,Flipkart,Trello,1,99.0
+User5,2026-07-05,Trello,Trello,1,98.0
+User5,2026-07-05,Trello,Snapchat,1,30.0
+User5,2026-07-05,Snapchat,News18,1,88.0
+User5,2026-07-05,News18,YouTube,1,70.0
+User5,2026-07-05,YouTube,HackerRank,1,120.0
+User5,2026-07-05,HackerRank,Udemy,1,32.0
+User5,2026-07-05,Udemy,PUBG Mobile,1,74.0
+User5,2026-07-06,Twitter/X,Snapchat,1,83.0
+User5,2026-07-06,Snapchat,Instagram,1,94.0
+User5,2026-07-06,Instagram,Zoom,1,50.0
+User5,2026-07-06,Zoom,Google Docs,1,34.0
+User5,2026-07-06,Google Docs,Udemy,1,119.0
+User5,2026-07-06,Udemy,LeetCode,1,20.0
+User5,2026-07-06,LeetCode,Facebook,1,26.0
+User5,2026-07-06,Facebook,Pinterest,1,66.0
+User5,2026-07-06,Pinterest,Microsoft Teams,1,74.0
+User5,2026-07-06,Microsoft Teams,News18,1,22.0
+User5,2026-07-06,News18,Jira,1,101.0
+User5,2026-07-07,Notion,Snapchat,1,105.0
+User5,2026-07-07,Snapchat,Netflix,1,36.0
+User5,2026-07-07,Netflix,Stack Overflow,1,118.0
+User5,2026-07-07,Stack Overflow,Postgres pgAdmin,1,98.0
+User5,2026-07-07,Postgres pgAdmin,Netflix,1,8.0
+User5,2026-07-07,Netflix,Amazon,1,73.0
+User5,2026-07-07,Amazon,LinkedIn Learning,1,64.0
+User5,2026-07-08,Jupyter Notebook,YouTube,1,8.0
+User5,2026-07-08,YouTube,PUBG Mobile,1,45.0
+User5,2026-07-08,PUBG Mobile,CodeChef,1,83.0
+User5,2026-07-08,CodeChef,Google Docs,1,118.0
+User5,2026-07-08,Google Docs,Zoom,1,17.0
+User5,2026-07-08,Zoom,WhatsApp Web,1,30.0
+User5,2026-07-08,WhatsApp Web,Udemy,1,72.0
+User5,2026-07-08,Udemy,Reddit,1,97.0
+User5,2026-07-09,Coursera,News18,1,86.0
+User5,2026-07-09,News18,HackerRank,1,64.0
+User5,2026-07-09,HackerRank,HackerRank,1,65.0
+User5,2026-07-09,HackerRank,Facebook,1,90.0
+User5,2026-07-09,Facebook,WhatsApp Web,1,102.0
+User5,2026-07-09,WhatsApp Web,Google Sheets,1,21.0
+User5,2026-07-09,Google Sheets,Flipkart,1,43.0
+User5,2026-07-09,Flipkart,Instagram,1,52.0
+User5,2026-07-09,Instagram,WhatsApp Web,1,91.0
+User5,2026-07-09,WhatsApp Web,Candy Crush,1,52.0
+User5,2026-07-09,Candy Crush,Facebook,1,110.0
+User5,2026-07-09,Facebook,Flipkart,1,62.0
+User5,2026-07-10,Amazon,Candy Crush,1,38.0
+User5,2026-07-10,Candy Crush,Amazon,1,93.0
+User5,2026-07-10,Amazon,Instagram,1,43.0
+User5,2026-07-10,Instagram,Candy Crush,1,87.0
+User5,2026-07-10,Candy Crush,TikTok,1,30.0
+User5,2026-07-10,TikTok,Jira,1,68.0
+User5,2026-07-11,Trello,Hotstar,1,99.0
+User5,2026-07-11,Hotstar,Snapchat,1,88.0
+User5,2026-07-11,Snapchat,VS Code,1,38.0
+User5,2026-07-11,VS Code,Twitter/X,1,18.0
+User5,2026-07-11,Twitter/X,Facebook,1,33.0
+User5,2026-07-11,Facebook,Spotify,1,104.0
+User5,2026-07-11,Spotify,VS Code,1,75.0
+User5,2026-07-11,VS Code,Notion,1,21.0
+User5,2026-07-11,Notion,GeeksforGeeks,1,120.0
+User5,2026-07-11,GeeksforGeeks,Flipkart,1,99.0
+User5,2026-07-11,Flipkart,YouTube,1,92.0
+User5,2026-07-11,YouTube,Zoom,1,37.0
+User5,2026-07-11,Zoom,PUBG Mobile,1,24.0
+User5,2026-07-12,Candy Crush,GitHub,1,97.0
+User5,2026-07-12,GitHub,Google Meet,1,116.0
+User5,2026-07-12,Google Meet,News18,1,82.0
+User5,2026-07-12,News18,Slack,1,8.0
+User5,2026-07-12,Slack,TikTok,1,78.0
+User5,2026-07-12,TikTok,Coursera,1,84.0
+User5,2026-07-12,Coursera,Facebook,1,65.0
+User5,2026-07-12,Facebook,Slack,1,71.0
+User5,2026-07-12,Slack,WhatsApp Web,1,109.0
+User5,2026-07-12,WhatsApp Web,Amazon,1,34.0
+User5,2026-07-12,Amazon,Reddit,1,75.0
+User5,2026-07-12,Reddit,Jira,1,18.0
+User5,2026-07-12,Jira,Pinterest,1,115.0
+User5,2026-07-12,Pinterest,Flipkart,1,105.0
+User5,2026-07-12,Flipkart,Candy Crush,1,45.0
+User5,2026-07-12,Candy Crush,CodeChef,1,9.0
+User5,2026-07-12,CodeChef,Google Sheets,1,16.0
+User5,2026-07-13,GitHub,TikTok,1,60.0
+User5,2026-07-13,TikTok,News18,1,56.0
+User5,2026-07-13,News18,Overleaf,1,115.0
+User5,2026-07-13,Overleaf,Spotify,1,19.0
+User5,2026-07-13,Spotify,Coursera,1,7.0
+User5,2026-07-13,Coursera,Claude,1,13.0
+User5,2026-07-13,Claude,Twitter/X,1,1.0
+User5,2026-07-13,Twitter/X,Notion,1,43.0
+User5,2026-07-13,Notion,Google Meet,1,86.0
+User5,2026-07-13,Google Meet,Overleaf,1,93.0
+User5,2026-07-13,Overleaf,LinkedIn Learning,1,84.0
+User5,2026-07-13,LinkedIn Learning,Notion,1,96.0
+User5,2026-07-14,Facebook,Postgres pgAdmin,1,74.0
+User5,2026-07-14,Postgres pgAdmin,GitLab,1,34.0
+User5,2026-07-14,GitLab,Spotify,1,120.0
+User5,2026-07-14,Spotify,YouTube,1,7.0
+User5,2026-07-14,YouTube,Spotify,1,69.0
+User5,2026-07-14,Spotify,Prime Video,1,78.0
+User5,2026-07-14,Prime Video,Spotify,1,92.0
+User5,2026-07-14,Spotify,Jira,1,16.0
+User5,2026-07-14,Jira,Coursera,1,39.0
+User5,2026-07-14,Coursera,Netflix,1,119.0
+User5,2026-07-15,Notion,Prime Video,1,113.0
+User5,2026-07-15,Prime Video,Twitter/X,1,19.0
+User5,2026-07-15,Twitter/X,Overleaf,1,85.0
+User5,2026-07-15,Overleaf,YouTube,1,65.0
+User5,2026-07-15,YouTube,Slack,1,30.0
+User5,2026-07-15,Slack,Jupyter Notebook,1,16.75
+User5,2026-07-15,Jupyter Notebook,W3Schools,1,84.0
+User5,2026-07-15,W3Schools,Flipkart,1,56.0
+User5,2026-07-15,Flipkart,Prime Video,1,51.0

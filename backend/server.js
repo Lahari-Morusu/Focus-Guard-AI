@@ -1,0 +1,1269 @@
+require('dotenv').config();
+
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
+const { Pool } = require('pg');
+const axios = require('axios');
+const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
+
+const PORT = process.env.PORT || 5000;
+
+const ML_API_URL =
+  process.env.ML_API_URL ||
+  'http://127.0.0.1:5001/predict';
+
+const JWT_SECRET =
+  process.env.JWT_SECRET ||
+  'dev-secret-change-this';
+
+const frontendSourceDir = path.join(__dirname, '..', 'frontend');
+const frontendBuildDir = path.join(frontendSourceDir, 'dist');
+// Serve Vite's compiled UI when it is available. The source index.html references
+// JSX files directly and only works through the Vite development server.
+const frontendDir = fs.existsSync(frontendBuildDir)
+  ? frontendBuildDir
+  : frontendSourceDir;
+const recommendationsFile = path.join(__dirname, 'recommendations_all_users.csv');
+const OLLAMA_URL = process.env.OLLAMA_URL || 'http://127.0.0.1:11434';
+const OLLAMA_MODEL = process.env.OLLAMA_MODEL || 'llama3.2';
+const CHAT_INSTRUCTIONS = `You are Focus Guard AI, a helpful and friendly general-purpose assistant inside a productivity dashboard.
+
+Answer the user's question directly, even when it is not about focus or productivity. When the supplied Focus Guard context is relevant, use it to give personalized, practical advice. Do not invent activity data or claim to have performed actions outside this chat. Be concise by default, use plain language, and acknowledge uncertainty when needed. For medical, legal, or financial questions, provide general information and encourage consulting a qualified professional when appropriate.`;
+
+function buildFocusContext(user, context, recommendation) {
+  const metrics = context?.metrics || {};
+  const totalMinutes = Number(metrics.totalMinutes || 0);
+  const productiveMinutes = Number(metrics.productiveMinutes || 0);
+  const productiveShare = totalMinutes > 0
+    ? Math.round((productiveMinutes / totalMinutes) * 100)
+    : null;
+  const topApplications = Array.isArray(context?.topApplications)
+    ? context.topApplications.slice(0, 5).map((app) => ({
+      app: String(app.app || 'Unknown'),
+      minutes: Math.round(Number(app.minutes || 0)),
+      sessions: Number(app.sessions || 0),
+    }))
+    : [];
+
+  return {
+    selectedUser: user,
+    period: context?.periodTitle || 'the selected period',
+    focusScore: Number.isFinite(Number(metrics.focusScore)) ? Number(metrics.focusScore) : null,
+    productiveMinutes: Math.round(productiveMinutes),
+    totalTrackedMinutes: Math.round(totalMinutes),
+    productiveSharePercent: productiveShare,
+    topApplications,
+    topRecommendation: recommendation?.top_recommendation || null,
+    appToAvoid: recommendation?.app_to_avoid || null,
+    appToLeanOnForFocus: recommendation?.app_to_lean_on_for_focus || null,
+  };
+}
+
+function sanitizeChatHistory(history) {
+  if (!Array.isArray(history)) return [];
+
+  return history
+    .slice(-12)
+    .filter((item) => item && (item.role === 'user' || item.role === 'assistant'))
+    .map((item) => ({
+      role: item.role,
+      content: String(item.text || item.content || '').trim().slice(0, 4000),
+    }))
+    .filter((item) => item.content);
+}
+
+async function askOllama({ user, message, context, history, recommendation }) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 120000);
+
+  try {
+    const focusContext = buildFocusContext(user, context, recommendation);
+
+    const messages = [
+      {
+        role: 'system',
+        content: `${CHAT_INSTRUCTIONS}
+
+Focus Guard context (use only when relevant):
+${JSON.stringify(focusContext)}`,
+      },
+      ...sanitizeChatHistory(history),
+      {
+        role: 'user',
+        content: message,
+      },
+    ];
+
+    const response = await fetch(`${OLLAMA_URL}/api/chat`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: OLLAMA_MODEL,
+        messages,
+        stream: false,
+        options: {
+          num_predict: 700,
+        },
+      }),
+      signal: controller.signal,
+    });
+
+    const result = await response.json();
+
+    if (!response.ok) {
+      console.error(
+        'Ollama chat error:',
+        response.status,
+        result?.error || result
+      );
+
+      const error = new Error(
+        'The local AI assistant could not answer right now. Please try again.'
+      );
+      error.statusCode = 502;
+      throw error;
+    }
+
+    const answer = String(result?.message?.content || '').trim();
+
+    if (!answer) {
+      const error = new Error(
+        'The local AI assistant returned an empty response. Please try again.'
+      );
+      error.statusCode = 502;
+      throw error;
+    }
+
+    return answer;
+  } catch (error) {
+    if (error.name === 'AbortError') {
+      const timeoutError = new Error(
+        'The local AI assistant took too long to respond. Please try again.'
+      );
+      timeoutError.statusCode = 504;
+      throw timeoutError;
+    }
+
+    console.error('Ollama connection error:', error.message);
+    throw error;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+function parseCsvLine(line) {
+  const values = [];
+  let value = '';
+  let quoted = false;
+
+  for (let index = 0; index < line.length; index += 1) {
+    const character = line[index];
+    if (character === '"' && line[index + 1] === '"' && quoted) {
+      value += '"';
+      index += 1;
+    } else if (character === '"') {
+      quoted = !quoted;
+    } else if (character === ',' && !quoted) {
+      values.push(value);
+      value = '';
+    } else {
+      value += character;
+    }
+  }
+
+  values.push(value);
+  return values;
+}
+
+function loadRecommendations(user) {
+  if (!fs.existsSync(recommendationsFile)) return null;
+
+  const lines = fs.readFileSync(recommendationsFile, 'utf8').trim().split(/\r?\n/);
+  if (lines.length < 2) return null;
+
+  const headers = parseCsvLine(lines[0]);
+  const rows = lines.slice(1).map((line) => {
+    const values = parseCsvLine(line);
+    return headers.reduce((row, header, index) => ({ ...row, [header]: values[index] || '' }), {});
+  });
+
+  return rows.find((row) => row.user_type === user) || null;
+}
+
+/* =========================================================
+   DATABASE
+========================================================= */
+
+const pool = new Pool({
+  host: process.env.DB_HOST || 'localhost',
+  port: process.env.DB_PORT || 5432,
+  user: process.env.DB_USER || 'postgres',
+  password: process.env.DB_PASSWORD || 'focusgaurd123',
+  database: process.env.DB_NAME || 'focus_guard_ai'
+});
+
+function parseDurationMinutes(value) {
+  if (value === null || value === undefined || value === '') {
+    return 0;
+  }
+
+  if (typeof value === 'number') {
+    return Number.isFinite(value) ? value : 0;
+  }
+
+  const text = String(value).trim();
+
+  if (!text) {
+    return 0;
+  }
+
+  if (/^\d+(\.\d+)?$/.test(text)) {
+    return Number(text);
+  }
+
+  const parts = text.split(':');
+  if (parts.length === 3) {
+    const [h, m, s] = parts.map(Number);
+    return h * 60 + m + s / 60;
+  }
+
+  if (parts.length === 2) {
+    const [m, s] = parts.map(Number);
+    return m + s / 60;
+  }
+
+  const numeric = Number(text.replace(/[^0-9.]/g, ''));
+  return Number.isFinite(numeric) ? numeric : 0;
+}
+
+function normalizeActivityRow(row) {
+  const start = row.opened_date ? new Date(row.opened_date) : null;
+  const end = row.closed_date ? new Date(row.closed_date) : null;
+
+  const durationMinutes =
+    parseDurationMinutes(row.duration) ||
+    (start && end ? Math.max(0, (end - start) / 60000) : 0);
+
+  return {
+    ...row,
+    user_type: row.user_type || 'Unknown',
+    app_web: row.app_web || 'Unknown',
+    productivity: row.productivity || 'Unknown',
+    duration_minutes: Number(durationMinutes.toFixed(2)),
+    opened_date: row.opened_date,
+    closed_date: row.closed_date
+  };
+}
+
+async function getActivityRows() {
+  const result = await pool.query(`
+    SELECT id, pid, user_type, app_web, opened_date, closed_date, duration, productivity
+    FROM synthetic_activity
+    WHERE opened_date IS NOT NULL
+      AND closed_date IS NOT NULL
+    ORDER BY user_type, opened_date
+  `);
+
+  return result.rows.map(normalizeActivityRow);
+}
+
+/* =========================================================
+   PASSWORD VALIDATION
+========================================================= */
+
+const passwordRegex =
+  /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]).{6,}$/;
+
+function isValidEmail(email) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+/* =========================================================
+   JWT
+========================================================= */
+
+function verifyToken(req) {
+  const auth = req.headers['authorization'];
+
+  if (!auth || !auth.startsWith('Bearer ')) {
+    return null;
+  }
+
+  try {
+    return jwt.verify(
+      auth.slice(7),
+      JWT_SECRET
+    );
+  } catch {
+    return null;
+  }
+}
+
+/* =========================================================
+   JSON RESPONSE
+========================================================= */
+
+function sendJson(res, statusCode, payload) {
+  res.writeHead(statusCode, {
+    'Content-Type': 'application/json; charset=utf-8',
+    'Access-Control-Allow-Origin': 'http://localhost:5173',
+    'Access-Control-Allow-Methods': 'GET,POST,DELETE,OPTIONS',
+    'Access-Control-Allow-Headers':
+      'Content-Type, Authorization'
+  });
+
+  res.end(
+    JSON.stringify(payload, null, 2)
+  );
+}
+
+/* =========================================================
+   STATIC FILES
+========================================================= */
+
+function sendFile(res, filePath, contentType) {
+  fs.readFile(filePath, (err, data) => {
+    if (err) {
+      res.writeHead(404, {
+        'Content-Type':
+          'text/plain; charset=utf-8'
+      });
+
+      res.end('Not found');
+      return;
+    }
+
+    res.writeHead(200, {
+      'Content-Type': contentType
+    });
+
+    res.end(data);
+  });
+}
+
+function serveStatic(req, res) {
+  let requestPath =
+    req.url.split('?')[0];
+
+  if (requestPath === '/') {
+    requestPath = '/index.html';
+  }
+
+  const safePath =
+    path.normalize(requestPath)
+      .replace(/^\/+/, '');
+
+  const filePath =
+    path.join(frontendDir, safePath);
+
+  if (!filePath.startsWith(frontendDir)) {
+    sendJson(res, 403, {
+      error: 'Forbidden'
+    });
+
+    return;
+  }
+
+  const ext =
+    path.extname(filePath).toLowerCase();
+
+  const contentType = {
+    '.html':
+      'text/html; charset=utf-8',
+
+    '.css':
+      'text/css; charset=utf-8',
+
+    '.js':
+      'application/javascript; charset=utf-8',
+
+    '.json':
+      'application/json; charset=utf-8',
+
+    '.svg':
+      'image/svg+xml',
+
+    '.png':
+      'image/png',
+
+    '.jpg':
+      'image/jpeg',
+
+    '.jpeg':
+      'image/jpeg',
+
+    '.webp':
+      'image/webp'
+  }[ext] || 'application/octet-stream';
+
+  if (fs.existsSync(filePath)) {
+    sendFile(
+      res,
+      filePath,
+      contentType
+    );
+  } else {
+    sendFile(
+      res,
+      path.join(
+        frontendDir,
+        'index.html'
+      ),
+      'text/html; charset=utf-8'
+    );
+  }
+}
+
+/* =========================================================
+   HTTP SERVER
+========================================================= */
+
+const server = http.createServer(
+  (req, res) => {
+
+    /* -----------------------------------------------------
+       CORS PREFLIGHT
+    ----------------------------------------------------- */
+
+    if (req.method === 'OPTIONS') {
+      res.writeHead(204, {
+        'Access-Control-Allow-Origin':
+          'http://localhost:5173',
+
+        'Access-Control-Allow-Methods':
+          'GET,POST,DELETE,OPTIONS',
+
+        'Access-Control-Allow-Headers':
+          'Content-Type, Authorization'
+      });
+
+      res.end();
+      return;
+    }
+
+    /* -----------------------------------------------------
+       API ROUTES
+    ----------------------------------------------------- */
+
+    if (req.url.startsWith('/api/')) {
+
+      let body = '';
+
+      req.on('data', (chunk) => {
+        body += chunk;
+      });
+
+      req.on('end', async () => {
+
+        try {
+
+          const parsed =
+            body ? JSON.parse(body) : {};
+
+          /* =================================================
+             HEALTH
+          ================================================= */
+
+          if (
+            req.method === 'GET' &&
+            req.url === '/api/health'
+          ) {
+
+            sendJson(res, 200, {
+              status: 'ok',
+              message: 'Backend is running'
+            });
+
+            return;
+          }
+
+          /* =================================================
+             ACTIVITY DATA
+          ================================================= */
+
+          if (
+            req.method === 'GET' &&
+            req.url === '/api/activity-data'
+          ) {
+
+            try {
+              const rows = await getActivityRows();
+              sendJson(res, 200, { rows });
+            } catch (error) {
+              console.error('Activity data error:', error);
+              sendJson(res, 500, { error: 'Unable to load activity data.' });
+            }
+
+            return;
+          }
+
+          if (
+            req.method === 'GET' &&
+            req.url.startsWith('/api/users')
+          ) {
+            try {
+              const result = await pool.query(`
+                SELECT DISTINCT user_type
+                FROM synthetic_activity
+                WHERE user_type IS NOT NULL
+                ORDER BY user_type
+              `);
+
+              sendJson(res, 200, {
+                users: result.rows.map((row) => row.user_type)
+              });
+            } catch (error) {
+              console.error('Users error:', error);
+              sendJson(res, 500, { error: 'Unable to load users.' });
+            }
+            return;
+          }
+
+          if (
+            req.method === 'GET' &&
+            req.url.startsWith('/api/recommendations')
+          ) {
+            const url = new URL(req.url, 'http://localhost');
+            const user = url.searchParams.get('user') || 'User1';
+            const recommendation = loadRecommendations(user);
+
+            if (!recommendation) {
+              sendJson(res, 404, { error: `No recommendations found for ${user}.` });
+              return;
+            }
+
+            sendJson(res, 200, {
+              user,
+              recommendations: recommendation.all_recommendations
+                .split(' | ')
+                .filter(Boolean),
+              topRecommendation: recommendation.top_recommendation,
+              appToAvoid: recommendation.app_to_avoid,
+              appToBatch: recommendation.app_to_batch_instead_of_switching,
+              appToLeanOn: recommendation.app_to_lean_on_for_focus,
+              predictedFocusTomorrow: recommendation.predicted_focus_tomorrow_pct,
+              predictedFocusNextWeek: recommendation.predicted_focus_next_7day_avg_pct,
+            });
+            return;
+          }
+
+          if (
+            req.method === 'POST' &&
+            req.url === '/api/chat'
+          ) {
+            const user = parsed.user || 'User1';
+            const message = String(parsed.message || '').trim();
+            const recommendation = loadRecommendations(user);
+
+            if (!message) {
+              sendJson(res, 400, { error: 'A message is required.' });
+              return;
+            }
+
+            try {
+              const answer = await askOllama({
+                user,
+                message: message.slice(0, 6000),
+                context: parsed.context,
+                history: parsed.history,
+                recommendation,
+              });
+              sendJson(res, 200, { answer });
+            } catch (error) {
+              console.error('Chat error:', error.message);
+              sendJson(res, error.statusCode || 500, { error: error.message || 'Assistant is unavailable.' });
+            }
+            return;
+          }
+
+          if (
+            req.method === 'GET' &&
+            req.url.startsWith('/api/goals')
+          ) {
+            try {
+              const url = new URL(req.url, 'http://localhost');
+              const user = url.searchParams.get('user') || 'User1';
+
+              await pool.query(`
+                CREATE TABLE IF NOT EXISTS goals (
+                  id SERIAL PRIMARY KEY,
+                  user_name VARCHAR(100) NOT NULL,
+                  title TEXT NOT NULL,
+                  target_minutes INTEGER NOT NULL,
+                  target_date DATE NOT NULL,
+                  completed BOOLEAN DEFAULT FALSE,
+                  created_at TIMESTAMP DEFAULT NOW()
+                )
+              `);
+
+              const result = await pool.query(
+                `SELECT id, user_name, title, target_minutes, target_date::text AS target_date, completed, created_at
+                 FROM goals WHERE user_name = $1 ORDER BY target_date DESC, created_at DESC`,
+                [user]
+              );
+
+              sendJson(res, 200, { goals: result.rows });
+            } catch (error) {
+              console.error('Goals load error:', error);
+              sendJson(res, 500, { error: 'Unable to load goals.' });
+            }
+            return;
+          }
+
+          if (
+            req.method === 'POST' &&
+            req.url === '/api/goals'
+          ) {
+            try {
+              const { user, title, targetMinutes, targetDate } = parsed;
+
+              const minutes = Number(targetMinutes);
+              if (!user || !String(title || '').trim() || !targetDate || !Number.isInteger(minutes) || minutes < 15) {
+                sendJson(res, 400, { error: 'User, title, target minutes, and date are required.' });
+                return;
+              }
+
+              await pool.query(`
+                CREATE TABLE IF NOT EXISTS goals (
+                  id SERIAL PRIMARY KEY,
+                  user_name VARCHAR(100) NOT NULL,
+                  title TEXT NOT NULL,
+                  target_minutes INTEGER NOT NULL,
+                  target_date DATE NOT NULL,
+                  completed BOOLEAN DEFAULT FALSE,
+                  created_at TIMESTAMP DEFAULT NOW()
+                )
+              `);
+
+              const result = await pool.query(
+                `INSERT INTO goals (user_name, title, target_minutes, target_date)
+                 VALUES ($1, $2, $3, $4)
+                 RETURNING id, user_name, title, target_minutes, target_date::text AS target_date, completed, created_at`,
+                [String(user), String(title).trim(), minutes, String(targetDate)]
+              );
+
+              sendJson(res, 201, { goal: result.rows[0] });
+            } catch (error) {
+              console.error('Goals create error:', error);
+              sendJson(res, 500, { error: 'Unable to create goal.' });
+            }
+            return;
+          }
+
+          if (
+            req.method === 'DELETE' &&
+            req.url.startsWith('/api/goals/')
+          ) {
+            try {
+              const goalId = req.url.split('/').pop();
+              await pool.query('DELETE FROM goals WHERE id = $1', [goalId]);
+              sendJson(res, 200, { success: true });
+            } catch (error) {
+              console.error('Goals delete error:', error);
+              sendJson(res, 500, { error: 'Unable to delete goal.' });
+            }
+            return;
+          }
+
+          /* =================================================
+             REGISTER
+          ================================================= */
+
+          if (
+            req.method === 'POST' &&
+            req.url === '/api/register'
+          ) {
+
+            const {
+              firstName,
+              lastName,
+              email,
+              password
+            } = parsed;
+
+            /* Required fields */
+
+            if (
+              !firstName ||
+              !lastName ||
+              !email ||
+              !password
+            ) {
+
+              sendJson(res, 400, {
+                error:
+                  'All fields are required.'
+              });
+
+              return;
+            }
+
+            /* Email validation */
+
+            if (!isValidEmail(email)) {
+
+              sendJson(res, 400, {
+                error:
+                  'Please enter a valid email address.'
+              });
+
+              return;
+            }
+
+            /* Password validation */
+
+            if (!passwordRegex.test(password)) {
+
+              sendJson(res, 400, {
+                error:
+                  'Password must be at least 6 characters and include one uppercase letter, one number, and one special character.'
+              });
+
+              return;
+            }
+
+            try {
+
+              /* Check existing account */
+
+              const existing =
+                await pool.query(
+                  `SELECT id
+                   FROM users
+                   WHERE LOWER(email) = LOWER($1)
+                   LIMIT 1`,
+                  [email]
+                );
+
+              if (
+                existing.rows.length > 0
+              ) {
+
+                sendJson(res, 409, {
+                  error:
+                    'An account with this email already exists.'
+                });
+
+                return;
+              }
+
+              /* Hash password */
+
+              const passwordHash =
+                await bcrypt.hash(
+                  password,
+                  10
+                );
+
+              /* Insert user */
+
+              const result =
+                await pool.query(
+                  `INSERT INTO users
+                   (
+                     first_name,
+                     last_name,
+                     email,
+                     password_hash,
+                     password
+                   )
+                   VALUES
+                   ($1, $2, $3, $4, $4)
+                   RETURNING id, first_name, last_name, email`,
+                  [
+                    firstName,
+                    lastName,
+                    email,
+                    passwordHash
+                  ]
+                );
+
+              const user =
+                result.rows[0];
+
+              console.log(
+                `New user registered: ${user.email}`
+              );
+
+              sendJson(res, 201, {
+                message:
+                  'Registration successful. You can now log in.',
+
+                user_id: user.id,
+
+                user: {
+                  id: user.id,
+                  firstName:
+                    user.first_name,
+                  lastName:
+                    user.last_name,
+                  email:
+                    user.email
+                }
+              });
+
+            } catch (error) {
+
+              console.error(
+                'Registration error:',
+                error
+              );
+
+              sendJson(res, 500, {
+                error:
+                  'Registration failed.',
+                details:
+                  error.message
+              });
+            }
+
+            return;
+          }
+
+          /* =================================================
+             LOGIN
+          ================================================= */
+
+          if (
+            req.method === 'POST' &&
+            req.url === '/api/login'
+          ) {
+
+            const {
+              username_or_email,
+              password
+            } = parsed;
+
+            /* Required fields */
+
+            if (
+              !username_or_email ||
+              !password
+            ) {
+
+              sendJson(res, 400, {
+                error:
+                  'Username/email and password are required.'
+              });
+
+              return;
+            }
+
+            try {
+
+              /*
+               * Currently login supports email.
+               * username_or_email is retained because
+               * your frontend uses that field name.
+               */
+
+              const result =
+                await pool.query(
+                  `SELECT
+                     id,
+                     first_name,
+                     last_name,
+                     email,
+                     password_hash
+                   FROM users
+                   WHERE LOWER(email) = LOWER($1)
+                   LIMIT 1`,
+                  [username_or_email]
+                );
+
+              if (
+                result.rows.length === 0
+              ) {
+
+                sendJson(res, 401, {
+                  error:
+                    'Invalid email or password.'
+                });
+
+                return;
+              }
+
+              const user =
+                result.rows[0];
+
+              /* Make sure password hash exists */
+
+              if (!user.password_hash) {
+
+                console.error(
+                  `No password_hash for user ${user.email}`
+                );
+
+                sendJson(res, 500, {
+                  error:
+                    'Account password data is missing. Please register again.'
+                });
+
+                return;
+              }
+
+              /* Compare password */
+
+              const passwordMatch =
+                await bcrypt.compare(
+                  password,
+                  user.password_hash
+                );
+
+              if (!passwordMatch) {
+
+                sendJson(res, 401, {
+                  error:
+                    'Invalid email or password.'
+                });
+
+                return;
+              }
+
+              /* Create JWT */
+
+              const token =
+                jwt.sign(
+                  {
+                    userId: user.id,
+                    email: user.email
+                  },
+                  JWT_SECRET,
+                  {
+                    expiresIn: '7d'
+                  }
+                );
+
+              console.log(
+                `User logged in: ${user.email}`
+              );
+
+              sendJson(res, 200, {
+
+                message:
+                  'Login Successful',
+
+                token,
+
+                user_id:
+                  user.id,
+
+                user: {
+                  id:
+                    user.id,
+
+                  firstName:
+                    user.first_name,
+
+                  lastName:
+                    user.last_name,
+
+                  email:
+                    user.email
+                }
+              });
+
+            } catch (error) {
+
+              console.error(
+                'Login database error:',
+                error
+              );
+
+              sendJson(res, 500, {
+                error:
+                  'Database error during login.',
+                details:
+                  error.message
+              });
+            }
+
+            return;
+          }
+
+          /* =================================================
+             FORGOT PASSWORD
+          ================================================= */
+
+          if (
+            req.method === 'POST' &&
+            req.url === '/api/forgot-password'
+          ) {
+
+            const { email } = parsed;
+
+            if (!email) {
+
+              sendJson(res, 400, {
+                error:
+                  'Please enter your email address.'
+              });
+
+              return;
+            }
+
+            try {
+
+              const result =
+                await pool.query(
+                  `SELECT id, email
+                   FROM users
+                   WHERE LOWER(email) = LOWER($1)
+                   LIMIT 1`,
+                  [email]
+                );
+
+              if (
+                result.rows.length === 0
+              ) {
+
+                sendJson(res, 404, {
+                  error:
+                    'No account was found with that email.'
+                });
+
+                return;
+              }
+
+              const token =
+                `reset-${Math.random()
+                  .toString(36)
+                  .slice(2, 10)}`;
+
+              console.log(
+                `Password reset token for ${email}: ${token}`
+              );
+
+              sendJson(res, 200, {
+                message:
+                  'Password reset instructions generated.',
+                token
+              });
+
+            } catch (error) {
+
+              console.error(
+                'Forgot password error:',
+                error
+              );
+
+              sendJson(res, 500, {
+                error:
+                  'Unable to process password reset.'
+              });
+            }
+
+            return;
+          }
+
+          /* =================================================
+             PREDICTION
+          ================================================= */
+
+          if (
+            req.method === 'POST' &&
+            req.url === '/api/predict'
+          ) {
+
+            const {
+              app_switch,
+              duration_minutes,
+              hour_of_day,
+              day_of_week
+            } = parsed;
+
+            if (
+              app_switch === undefined ||
+              duration_minutes === undefined ||
+              hour_of_day === undefined ||
+              day_of_week === undefined
+            ) {
+
+              sendJson(res, 400, {
+                error:
+                  'Missing required fields: app_switch, duration_minutes, hour_of_day, day_of_week'
+              });
+
+              return;
+            }
+
+            try {
+
+              const response =
+                await axios.post(
+                  ML_API_URL,
+                  {
+                    app_switch,
+                    duration_minutes,
+                    hour_of_day,
+                    day_of_week
+                  }
+                );
+
+              sendJson(
+                res,
+                200,
+                response.data
+              );
+
+            } catch (error) {
+
+              console.error(
+                'ML API error:',
+                error.message
+              );
+
+              sendJson(res, 500, {
+                error:
+                  'Prediction service unavailable.'
+              });
+            }
+
+            return;
+          }
+
+          /* =================================================
+             AUTHENTICATED USER
+          ================================================= */
+
+          if (
+            req.method === 'GET' &&
+            req.url === '/api/me'
+          ) {
+
+            const decoded =
+              verifyToken(req);
+
+            if (!decoded) {
+
+              sendJson(res, 401, {
+                error:
+                  'Unauthorized'
+              });
+
+              return;
+            }
+
+            try {
+
+              const result =
+                await pool.query(
+                  `SELECT
+                     id,
+                     first_name,
+                     last_name,
+                     email,
+                     created_at
+                   FROM users
+                   WHERE id = $1
+                   LIMIT 1`,
+                  [decoded.userId]
+                );
+
+              if (
+                result.rows.length === 0
+              ) {
+
+                sendJson(res, 404, {
+                  error:
+                    'User not found.'
+                });
+
+                return;
+              }
+
+              const user =
+                result.rows[0];
+
+              sendJson(res, 200, {
+                user: {
+                  id:
+                    user.id,
+
+                  firstName:
+                    user.first_name,
+
+                  lastName:
+                    user.last_name,
+
+                  email:
+                    user.email,
+
+                  createdAt:
+                    user.created_at
+                }
+              });
+
+            } catch (error) {
+
+              console.error(
+                'User profile error:',
+                error
+              );
+
+              sendJson(res, 500, {
+                error:
+                  'Unable to load user profile.'
+              });
+            }
+
+            return;
+          }
+
+          /* =================================================
+             UNKNOWN API
+          ================================================= */
+
+          sendJson(res, 404, {
+            error:
+              'API endpoint not found.'
+          });
+
+        } catch (error) {
+
+          console.error(
+            'Request processing error:',
+            error
+          );
+
+          sendJson(res, 400, {
+            error:
+              'Invalid JSON body.'
+          });
+        }
+
+      });
+
+      return;
+    }
+
+    /* =====================================================
+       FRONTEND
+    ===================================================== */
+
+    serveStatic(req, res);
+  }
+);
+
+/* =========================================================
+   START SERVER
+========================================================= */
+
+server.listen(
+  PORT,
+  '127.0.0.1',
+  () => {
+
+    console.log(
+      `Authentication app listening on http://localhost:${PORT}`
+    );
+
+    console.log(
+      `Database: ${process.env.DB_NAME || 'focus_guard_ai'}`
+    );
+  }
+);
